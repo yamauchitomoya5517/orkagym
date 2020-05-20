@@ -62,7 +62,7 @@
     </div>
 </header>
 <section class="visible-xs text-center bg-darkest-gray"
-         style="padding:250px 0;background: url('http://orkagym.jp/wp-content/uploads/2020/05/sp_new.gif') no-repeat;background-size:100% 100%;">
+         style="padding:150px 0;background: url('http://orkagym.jp/wp-content/uploads/2020/05/sp_new.gif') no-repeat;background-size:100% 100%;">
     <!-- <h1 class="section-heading hidden-xs">ORKA GYM</h1>
                 <div style="position:absolute;z-index:0;top:0;left:0;right:0;bottom:0;margin:auto;margin-top:100px;">
                     <h1 class="section-heading visible-xs small" style="margin-top:100px">ORKA GYM</h1>
