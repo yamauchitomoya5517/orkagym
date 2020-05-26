@@ -54,15 +54,16 @@
         <div class="overlay"></div>
         <video autoplay muted loop playsinline poster="<?php echo home_url('/'); ?>/img/poster.jpg"
                class="img-responsive hidden-xs">
-            <source src="<?php bloginfo('template_url'); ?>/img/movie/compressed.mov">
+            <!-- <source src="<?php bloginfo('template_url'); ?>/img/movie/compressed.mov"> -->
             <source src="sample.ogv">
             <source src="sample.webm">
             <p>動画を再生するには、videoタグをサポートしたブラウザが必要です。</p>
         </video>
     </div>
 </header>
-<section class="visible-xs text-center bg-darkest-gray"
-         style="padding:150px 0;background: url('http://orkagym.jp/wp-content/uploads/2020/05/sp_new.gif') no-repeat;background-size:100% 100%;">
+<section class="visible-xs text-center bg-darkest-gray" style="padding:150px 0";>
+<!-- <section class="visible-xs text-center bg-darkest-gray"
+         style="padding:150px 0;background: url('http://orkagym.jp/wp-content/uploads/2020/05/sp_new.gif') no-repeat;background-size:100% 100%;"> -->
     <!-- <h1 class="section-heading hidden-xs">ORKA GYM</h1>
                 <div style="position:absolute;z-index:0;top:0;left:0;right:0;bottom:0;margin:auto;margin-top:100px;">
                     <h1 class="section-heading visible-xs small" style="margin-top:100px">ORKA GYM</h1>
