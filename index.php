@@ -644,7 +644,7 @@
                                                             </div>
                                                         </div>
                                                         <div class="row">
-                                                            <div class="col-md-6 col-xs-6">
+                                                            <div class="col-md-6 col-xs-12" style="margin-bottom:25px;">
                                                                 <p class="lead">新着記事</p>
                         <?php // 5件のみ
                         query_posts('posts_per_page=10');
@@ -668,7 +668,7 @@
                         wp_reset_query();
                         ?>
                     </div>
-                    <div class="col-md-6 col-xs-6">
+                    <div class="col-md-6 col-xs-12">
                         <p class="lead">アーカイブ</p>
                         <ul class="list-unstyled">
                             <?php wp_get_archives( 'post_type=post&type=monthly&show_post_count=1' ); ?>
