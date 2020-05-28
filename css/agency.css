@@ -253,6 +253,7 @@ fieldset[disabled] .btn-xl.active {
         transition: padding .3s;
         border: 0;
     }
+
     .navbar-default .navbar-brand {
         font-size: 2em;
         -webkit-transition: all .3s;
@@ -263,13 +264,16 @@ fieldset[disabled] .btn-xl.active {
         width: 259px;
         height: 103px;
     }
+
     .navbar-default .navbar-nav>.active>a {
         border-radius: 3px
     }
+
     .navbar-default.navbar-shrink {
-        background-color: rgba(0,0,0,0.5);
+        background-color: rgba(0, 0, 0, 0.5);
         padding: 10px 0
     }
+
     .navbar-default.navbar-shrink .navbar-brand {
         font-size: 1.5em
     }
@@ -347,6 +351,7 @@ header .intro-text .intro-heading {
         padding-top: 300px;
         padding-bottom: 200px
     }
+
     header .intro-text .intro-lead-in {
         font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
         font-style: italic;
@@ -354,6 +359,7 @@ header .intro-text .intro-heading {
         line-height: 40px;
         margin-bottom: 25px
     }
+
     header .intro-text .intro-heading {
         font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
         text-transform: uppercase;
@@ -665,75 +671,91 @@ section h3.section-subheading {
     .timeline:before {
         left: 50%
     }
+
     .timeline>li {
         margin-bottom: 100px;
         min-height: 100px
     }
+
     .timeline>li .timeline-panel {
         width: 41%;
         float: left;
         padding: 0 20px 20px 30px;
         text-align: right
     }
+
     .timeline>li .timeline-image {
         width: 100px;
         height: 100px;
         left: 50%;
         margin-left: -50px
     }
+
     .timeline>li .timeline-image h4 {
         font-size: 13px;
         margin-top: 16px;
         line-height: 18px
     }
+
     .timeline>li.timeline-inverted>.timeline-panel {
         float: right;
         text-align: left;
         padding: 0 30px 20px 20px
     }
+
     section#ReserveContact .section-heading {
         color: #fff
     }
+
     section#ReserveContact .form-group {
         margin-bottom: 25px
     }
+
     section#ReserveContact .form-group input,
     section#ReserveContact .form-group textarea {
         padding: 20px
     }
+
     section#ReserveContact .form-group input.form-control {
         height: auto
     }
+
     section#ReserveContact .form-group textarea.form-control {
         height: 236px
     }
+
     section#ReserveContact .form-control:focus {
         border-color: #27B9E3;
         box-shadow: none
     }
+
     section#ReserveContact::-webkit-input-placeholder {
         font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
         text-transform: uppercase;
         font-weight: 700;
         color: #bbb
     }
+
     section#ReserveContact:-moz-placeholder {
         font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
         font-weight: 700;
         color: #bbb
     }
+
     section#ReserveContact::-moz-placeholder {
         font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
         text-transform: uppercase;
         font-weight: 700;
         color: #bbb
     }
+
     section#ReserveContact:-ms-input-placeholder {
         font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
         text-transform: uppercase;
         font-weight: 700;
         color: #bbb
     }
+
     section#ReserveContact .text-danger {
         color: #e74c3c
     }
@@ -743,22 +765,27 @@ section h3.section-subheading {
     .timeline>li {
         min-height: 150px
     }
+
     .timeline>li .timeline-panel {
         padding: 0 20px 20px
     }
+
     .timeline>li .timeline-image {
         width: 150px;
         height: 150px;
         margin-left: -75px
     }
+
     .timeline>li .timeline-image h4 {
         font-size: 18px;
         margin-top: 30px;
         line-height: 26px
     }
+
     .timeline>li.timeline-inverted>.timeline-panel {
         padding: 0 20px 20px
     }
+
     section#ReserveContact {
         background-color: #222;
         background-image: url(../img/ReserveContact.jpg);
@@ -766,52 +793,64 @@ section h3.section-subheading {
         background-repeat: no-repeat;
         background-size: cover;
     }
+
     section#ReserveContact .section-heading {
         color: #fff
     }
+
     section#ReserveContact .form-group {
         margin-bottom: 25px
     }
+
     section#ReserveContact .form-group input,
     section#ReserveContact .form-group textarea {
         padding: 20px
     }
+
     section#ReserveContact .form-group input.form-control {
         height: auto
     }
+
     section#ReserveContact .form-group textarea.form-control {
         height: 236px
     }
+
     section#ReserveContact .form-control:focus {
         border-color: #27B9E3;
         box-shadow: none
     }
+
     section#ReserveContact::-webkit-input-placeholder {
         font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
         text-transform: uppercase;
         font-weight: 700;
         color: #bbb
     }
+
     section#ReserveContact:-moz-placeholder {
         font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
         font-weight: 700;
         color: #bbb
     }
+
     section#ReserveContact::-moz-placeholder {
         font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
         text-transform: uppercase;
         font-weight: 700;
         color: #bbb
     }
+
     section#ReserveContact:-ms-input-placeholder {
         font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
         text-transform: uppercase;
         font-weight: 700;
         color: #bbb
     }
+
     section#ReserveContact .text-danger {
         color: #e74c3c
     }
+
     section#Message {
         background-color: #222;
         /*background-image: url(http://nucklepart.hippy.jp/20180421.jpg);*/
@@ -820,6 +859,7 @@ section h3.section-subheading {
         background-repeat: no-repeat;
         background-size: cover;
     }
+
     section#Concept {
         background-color: #fff;
         background-image: url(../img/kamiyasan-1.jpg);
@@ -827,9 +867,11 @@ section h3.section-subheading {
         background-repeat: no-repeat;
         background-size: cover;
     }
+
     section#Price {
         background-color: #f7f7f7;
     }
+
     section#Recruit {
         background-color: #f7f7f7;
     }
@@ -839,20 +881,25 @@ section h3.section-subheading {
     .timeline>li {
         min-height: 170px
     }
+
     .timeline>li .timeline-panel {
         padding: 0 20px 20px 100px
     }
+
     .timeline>li .timeline-image {
         width: 170px;
         height: 170px;
         margin-left: -85px
     }
+
     .timeline>li .timeline-image h4 {
         margin-top: 40px
     }
+
     .timeline>li.timeline-inverted>.timeline-panel {
         padding: 0 100px 20px 20px
     }
+
     section#ReserveContact {
         background-color: #222;
         background-image: url(../img/ReserveContact.jpg);
@@ -860,52 +907,64 @@ section h3.section-subheading {
         background-repeat: no-repeat;
         background-size: cover;
     }
+
     section#ReserveContact .section-heading {
         color: #fff
     }
+
     section#ReserveContact .form-group {
         margin-bottom: 25px
     }
+
     section#ReserveContact .form-group input,
     section#ReserveContact .form-group textarea {
         padding: 20px
     }
+
     section#ReserveContact .form-group input.form-control {
         height: auto
     }
+
     section#ReserveContact .form-group textarea.form-control {
         height: 236px
     }
+
     section#ReserveContact .form-control:focus {
         border-color: #27B9E3;
         box-shadow: none
     }
+
     section#ReserveContact::-webkit-input-placeholder {
         font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
         text-transform: uppercase;
         font-weight: 700;
         color: #bbb
     }
+
     section#ReserveContact:-moz-placeholder {
         font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
         font-weight: 700;
         color: #bbb
     }
+
     section#ReserveContact::-moz-placeholder {
         font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
         text-transform: uppercase;
         font-weight: 700;
         color: #bbb
     }
+
     section#ReserveContact:-ms-input-placeholder {
         font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
         text-transform: uppercase;
         font-weight: 700;
         color: #bbb
     }
+
     section#ReserveContact .text-danger {
         color: #e74c3c
     }
+
     section#Message {
         background-color: #222;
         /*background-image: url(http://nucklepart.hippy.jp/20180421.jpg);*/
@@ -914,6 +973,7 @@ section h3.section-subheading {
         background-repeat: no-repeat;
         background-size: cover;
     }
+
     section#Concept {
         background-color: #222;
         background-image: url(../img/kamiyasan-1.jpg);
@@ -921,9 +981,11 @@ section h3.section-subheading {
         background-repeat: no-repeat;
         background-size: cover;
     }
+
     section#Price {
         background-color: #f7f7f7;
     }
+
     section#Recruit {
         background-color: #fff;
     }
@@ -1186,18 +1248,26 @@ body {
     width: 260px;
     height: 103px;
 }
-.small{
-    font-size:150%;
-}
-#CompanyOverView a{
-    color:#000000;
-}
-#Blog a{
-    color:#222;
-    text-decoration:none;
+
+.small {
+    font-size: 150%;
 }
 
-.bg-tpblack{
+#CompanyOverView a {
+    color: #000000;
+}
+
+#Blog a {
+    color: #222;
+    text-decoration: none;
+}
+
+.bg-tpblack {
     background-color: rgba(0, 0, 0, 0.5);
     padding: 20px;
+}
+
+.table-noborder {
+    border-top: 0px !important;
+    border-bottom: 0px !important;
 }

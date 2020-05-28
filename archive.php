@@ -70,6 +70,17 @@ Template Name: archive
                                             <?php wp_reset_query(); ?>
                             </div>
                         </div>
+                        <div class="col-lg-12">
+                            <!--ページ送り-->
+<nav class="pagenav text-center spacer-l">
+    <span class="page-numbers current">1</span>
+    <a class="page-numbers" href="http://wp-hoge.com/?paged=2">2</a>
+    <a class="page-numbers" href="http://wp-hoge.com/?paged=3">3</a>
+    <a class="page-numbers" href="http://wp-hoge.com/?paged=4/">4</a>
+    <a class="next page-numbers" href="http://wp-hoge.com/?paged=2">次へ »</a></div>
+</nav>
+<!--//ページ送り-->
+                        </div>
                     </div>
                 </section>
                 <!-- Footer -->
