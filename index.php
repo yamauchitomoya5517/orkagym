@@ -8,15 +8,15 @@
             <meta name="description" content="ORKAGYM×医科学研究所｜運動療法を処方する医科学研究所併設トレーニングジム">
             <meta name="author" content="">
             <title>
-                <?php bloginfo('name'); ?> |
-                <?php bloginfo('description'); ?>
+                <?php bloginfo('name');?> |
+                <?php bloginfo('description');?>
             </title>
             <!-- Bootstrap Core CSS -->
-            <link href="<?php bloginfo('template_url'); ?>/css/bootstrap.min.css" rel="stylesheet">
+            <link href="<?php bloginfo('template_url');?>/css/bootstrap.min.css" rel="stylesheet">
             <!-- Custom CSS -->
-            <link href="<?php bloginfo('template_url'); ?>/css/agency.css" rel="stylesheet">
+            <link href="<?php bloginfo('template_url');?>/css/agency.css" rel="stylesheet">
             <!-- Custom Fonts -->
-            <link href="<?php bloginfo('template_url'); ?>/font-awesome/css/font-awesome.min.css" rel="stylesheet"
+            <link href="<?php bloginfo('template_url');?>/font-awesome/css/font-awesome.min.css" rel="stylesheet"
             type="text/css">
             <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
             <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
@@ -29,13 +29,13 @@
             <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
             <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
-        <?php wp_head(); ?>
+        <?php wp_head();?>
     </head>
 
     <body id="page-top" class="index">
-        <?php include_once 'analyticstracking.php'; ?>
+        <?php include_once 'analyticstracking.php';?>
         <!-- Navigation -->
-        <?php get_header(); ?>
+        <?php get_header();?>
         <header>
             <div class="embed-responsive embed-responsive-16by9 hidden-xs">
                 <div class="inner">
@@ -53,8 +53,8 @@
                         </div>
                         <div class="overlay"></div>
                         <video autoplay muted loop playsinline poster="<?php echo home_url('/'); ?>/img/poster.jpg"
-                           class="img-responsive hidden-xs">
-                           <!-- <source src="<?php bloginfo('template_url'); ?>/img/movie/compressed.mov"> -->
+                         class="img-responsive hidden-xs">
+                         <!-- <source src="<?php bloginfo('template_url');?>/img/movie/compressed.mov"> -->
                             <source src="sample.ogv">
                                 <source src="sample.webm">
                                     <p>動画を再生するには、videoタグをサポートしたブラウザが必要です。</p>
@@ -63,7 +63,7 @@
                         </header>
                         <section class="visible-xs text-center bg-darkest-gray" style="padding:150px 0";>
         <!-- <section class="visible-xs text-center bg-darkest-gray"
-         style="padding:150px 0;background: url('http://orkagym.jp/wp-content/uploads/2020/05/sp_new.gif') no-repeat;background-size:100% 100%;"> -->
+           style="padding:150px 0;background: url('http://orkagym.jp/wp-content/uploads/2020/05/sp_new.gif') no-repeat;background-size:100% 100%;"> -->
             <!-- <h1 class="section-heading hidden-xs">ORKA GYM</h1>
                         <div style="position:absolute;z-index:0;top:0;left:0;right:0;bottom:0;margin:auto;margin-top:100px;">
                             <h1 class="section-heading visible-xs small" style="margin-top:100px">ORKA GYM</h1>
@@ -102,7 +102,7 @@
                                     <div class="row">
                                         <p class="visible-xs visible-sm">
                                             <!-- <img src="http://nucklepart.hippy.jp/20180421.jpg" class="img-responsive" alt="Message_img_1"> -->
-                                            <img src="<?php bloginfo('template_url'); ?>/img/20200510075303.JPEG" alt="" class="img-responsive">
+                                            <img src="<?php bloginfo('template_url');?>/img/20200510075303.JPEG" alt="" class="img-responsive">
                                         </p>
                                         <div class="hidden-xs bg-tpblack">
                                             <h3 class="text-center">
@@ -148,7 +148,7 @@
                                         </div>
                                         <div class="row">
                                             <p class="visible-xs visible-sm">
-                                                <img src="<?php bloginfo('template_url'); ?>/img/kamiyasan-1.jpg" class="img-responsive"
+                                                <img src="<?php bloginfo('template_url');?>/img/kamiyasan-1.jpg" class="img-responsive"
                                                 alt="Concept_img_1">
                                             </p>
                                             <div class="hidden-xs bg-tpblack">
@@ -202,7 +202,7 @@
                                         <div class="row spacer-l">
                                             <div class="col-md-2"></div>
                                             <div class="col-xs-12 col-md-8">
-                                                <img src="<?php bloginfo('template_url'); ?>/img/S__5324811.jpg" alt="運動療法" class="img-responsive">
+                                                <img src="<?php bloginfo('template_url');?>/img/S__5324811.jpg" alt="運動療法" class="img-responsive">
                                             </div>
                                             <div class="col-md-2"></div>
                                         </div>
@@ -224,7 +224,7 @@
                                                                 <i class="fa fa-plus fa-3x"></i>
                                                             </div>
                                                         </div>
-                                                        <img src="<?php bloginfo('template_url'); ?>/img/20190702.jpeg" class="img-responsive"
+                                                        <img src="<?php bloginfo('template_url');?>/img/20190702.jpeg" class="img-responsive"
                                                         alt="trainers_img_1">
                                                     </a>
                                                     <div class="portfolio-caption" style="padding:8px;">
@@ -265,14 +265,14 @@
                                                     <div class="col-md-3">
                                                         <div class="team-member">
                                                             <a href="#" data-toggle="modal" data-target="#Modal_1">
-                                                                <img src="<?php bloginfo('template_url'); ?>/img/kamiyasan-1.jpg" class="img-responsive"
+                                                                <img src="<?php bloginfo('template_url');?>/img/kamiyasan-1.jpg" class="img-responsive"
                                                                 alt="facilities_img_1">
                                                             </a>
                                                             <div class="modal fade" id="Modal_1" tabindex="-1">
                                                                 <div class="modal-dialog modal-lg">
                                                                     <div class="modal-content">
                                                                         <div class="modal-body">
-                                                                            <img src="<?php bloginfo('template_url'); ?>/img/facilities_1_l.jpg"
+                                                                            <img src="<?php bloginfo('template_url');?>/img/facilities_1_l.jpg"
                                                                             class="img-responsive" alt="facilities_img_1">
                                                                         </div>
                                                                     </div>
@@ -283,14 +283,14 @@
                                                     <div class="col-md-3">
                                                         <div class="team-member">
                                                             <a href="#" data-toggle="modal" data-target="#Modal_2">
-                                                                <img src="<?php bloginfo('template_url'); ?>/img/facilities_2.jpg" class="img-responsive"
+                                                                <img src="<?php bloginfo('template_url');?>/img/facilities_2.jpg" class="img-responsive"
                                                                 alt="facilities_img_2">
                                                             </a>
                                                             <div class="modal fade" id="Modal_2" tabindex="-1">
                                                                 <div class="modal-dialog modal-lg">
                                                                     <div class="modal-content">
                                                                         <div class="modal-body">
-                                                                            <img src="<?php bloginfo('template_url'); ?>/img/facilities_2_l.jpg"
+                                                                            <img src="<?php bloginfo('template_url');?>/img/facilities_2_l.jpg"
                                                                             class="img-responsive" alt="facilities_img_2">
                                                                         </div>
                                                                     </div>
@@ -301,14 +301,14 @@
                                                     <div class="col-md-3">
                                                         <div class="team-member">
                                                             <a href="#" data-toggle="modal" data-target="#Modal_3">
-                                                                <img src="<?php bloginfo('template_url'); ?>/img/facilities_3.jpg" class="img-responsive"
+                                                                <img src="<?php bloginfo('template_url');?>/img/facilities_3.jpg" class="img-responsive"
                                                                 alt="facilities_img_3">
                                                             </a>
                                                             <div class="modal fade" id="Modal_3" tabindex="-1">
                                                                 <div class="modal-dialog modal-lg">
                                                                     <div class="modal-content">
                                                                         <div class="modal-body">
-                                                                            <img src="<?php bloginfo('template_url'); ?>/img/facilities_3_l.jpg"
+                                                                            <img src="<?php bloginfo('template_url');?>/img/facilities_3_l.jpg"
                                                                             class="img-responsive" alt="facilities_img_3">
                                                                         </div>
                                                                     </div>
@@ -319,14 +319,14 @@
                                                     <div class="col-md-3">
                                                         <div class="team-member">
                                                             <a href="#" data-toggle="modal" data-target="#Modal_4">
-                                                                <img src="<?php bloginfo('template_url'); ?>/img/facilities_4.jpg" class="img-responsive"
+                                                                <img src="<?php bloginfo('template_url');?>/img/facilities_4.jpg" class="img-responsive"
                                                                 alt="facilities_img_4">
                                                             </a>
                                                             <div class="modal fade" id="Modal_4" tabindex="-1">
                                                                 <div class="modal-dialog modal-lg">
                                                                     <div class="modal-content">
                                                                         <div class="modal-body">
-                                                                            <img src="<?php bloginfo('template_url'); ?>/img/facilities_4_l.jpg"
+                                                                            <img src="<?php bloginfo('template_url');?>/img/facilities_4_l.jpg"
                                                                             class="img-responsive" alt="facilities_img_4">
                                                                         </div>
                                                                     </div>
@@ -337,14 +337,14 @@
                                                     <div class="col-md-3">
                                                         <div class="team-member">
                                                             <a href="#" data-toggle="modal" data-target="#Modal_5">
-                                                                <img src="<?php bloginfo('template_url'); ?>/img/facilities_5.jpg" class="img-responsive"
+                                                                <img src="<?php bloginfo('template_url');?>/img/facilities_5.jpg" class="img-responsive"
                                                                 alt="facilities_img_5">
                                                             </a>
                                                             <div class="modal fade" id="Modal_5" tabindex="-1">
                                                                 <div class="modal-dialog modal-lg">
                                                                     <div class="modal-content">
                                                                         <div class="modal-body">
-                                                                            <img src="<?php bloginfo('template_url'); ?>/img/facilities_5_l.jpg"
+                                                                            <img src="<?php bloginfo('template_url');?>/img/facilities_5_l.jpg"
                                                                             class="img-responsive" alt="facilities_img_5">
                                                                         </div>
                                                                     </div>
@@ -355,14 +355,14 @@
                                                     <div class="col-md-3">
                                                         <div class="team-member">
                                                             <a href="#" data-toggle="modal" data-target="#Modal_6">
-                                                                <img src="<?php bloginfo('template_url'); ?>/img/facilities_6.jpg" class="img-responsive"
+                                                                <img src="<?php bloginfo('template_url');?>/img/facilities_6.jpg" class="img-responsive"
                                                                 alt="facilities_img_6">
                                                             </a>
                                                             <div class="modal fade" id="Modal_6" tabindex="-1">
                                                                 <div class="modal-dialog modal-lg">
                                                                     <div class="modal-content">
                                                                         <div class="modal-body">
-                                                                            <img src="<?php bloginfo('template_url'); ?>/img/facilities_6_l.jpg"
+                                                                            <img src="<?php bloginfo('template_url');?>/img/facilities_6_l.jpg"
                                                                             class="img-responsive" alt="facilities_img_6">
                                                                         </div>
                                                                     </div>
@@ -373,14 +373,14 @@
                                                     <div class="col-md-3">
                                                         <div class="team-member">
                                                             <a href="#" data-toggle="modal" data-target="#Modal_7">
-                                                                <img src="<?php bloginfo('template_url'); ?>/img/facilities_7.jpg" class="img-responsive"
+                                                                <img src="<?php bloginfo('template_url');?>/img/facilities_7.jpg" class="img-responsive"
                                                                 alt="facilities_img_7">
                                                             </a>
                                                             <div class="modal fade" id="Modal_7" tabindex="-1">
                                                                 <div class="modal-dialog modal-lg">
                                                                     <div class="modal-content">
                                                                         <div class="modal-body">
-                                                                            <img src="<?php bloginfo('template_url'); ?>/img/facilities_7_l.jpg"
+                                                                            <img src="<?php bloginfo('template_url');?>/img/facilities_7_l.jpg"
                                                                             class="img-responsive" alt="facilities_img_7">
                                                                         </div>
                                                                     </div>
@@ -391,14 +391,14 @@
                                                     <div class="col-md-3">
                                                         <div class="team-member">
                                                             <a href="#" data-toggle="modal" data-target="#Modal_8">
-                                                                <img src="<?php bloginfo('template_url'); ?>/img/facilities_8.jpg" class="img-responsive"
+                                                                <img src="<?php bloginfo('template_url');?>/img/facilities_8.jpg" class="img-responsive"
                                                                 alt="facilities_img_8">
                                                             </a>
                                                             <div class="modal fade" id="Modal_8" tabindex="-1">
                                                                 <div class="modal-dialog modal-lg">
                                                                     <div class="modal-content">
                                                                         <div class="modal-body">
-                                                                            <img src="<?php bloginfo('template_url'); ?>/img/facilities_8_l.jpg"
+                                                                            <img src="<?php bloginfo('template_url');?>/img/facilities_8_l.jpg"
                                                                             class="img-responsive" alt="facilities_img_8">
                                                                         </div>
                                                                     </div>
@@ -409,14 +409,14 @@
                                                     <div class="col-md-3">
                                                         <div class="team-member">
                                                             <a href="#" data-toggle="modal" data-target="#Modal_9">
-                                                                <img src="<?php bloginfo('template_url'); ?>/img/facilities_9.jpg" class="img-responsive"
+                                                                <img src="<?php bloginfo('template_url');?>/img/facilities_9.jpg" class="img-responsive"
                                                                 alt="facilities_img_5">
                                                             </a>
                                                             <div class="modal fade" id="Modal_9" tabindex="-1">
                                                                 <div class="modal-dialog modal-lg">
                                                                     <div class="modal-content">
                                                                         <div class="modal-body">
-                                                                            <img src="<?php bloginfo('template_url'); ?>/img/facilities_9_l.jpg"
+                                                                            <img src="<?php bloginfo('template_url');?>/img/facilities_9_l.jpg"
                                                                             class="img-responsive" alt="facilities_img_9">
                                                                         </div>
                                                                     </div>
@@ -427,14 +427,14 @@
                                                     <div class="col-md-3">
                                                         <div class="team-member">
                                                             <a href="#" data-toggle="modal" data-target="#Modal_10">
-                                                                <img src="<?php bloginfo('template_url'); ?>/img/facilities_10.jpg" class="img-responsive"
+                                                                <img src="<?php bloginfo('template_url');?>/img/facilities_10.jpg" class="img-responsive"
                                                                 alt="facilities_img_5">
                                                             </a>
                                                             <div class="modal fade" id="Modal_10" tabindex="-1">
                                                                 <div class="modal-dialog modal-lg">
                                                                     <div class="modal-content">
                                                                         <div class="modal-body">
-                                                                            <img src="<?php bloginfo('template_url'); ?>/img/facilities_10_l.jpg"
+                                                                            <img src="<?php bloginfo('template_url');?>/img/facilities_10_l.jpg"
                                                                             class="img-responsive" alt="facilities_img_10">
                                                                         </div>
                                                                     </div>
@@ -445,14 +445,14 @@
                                                     <div class="col-md-3">
                                                         <div class="team-member">
                                                             <a href="#" data-toggle="modal" data-target="#Modal_11">
-                                                                <img src="<?php bloginfo('template_url'); ?>/img/facilities_11.jpg" class="img-responsive"
+                                                                <img src="<?php bloginfo('template_url');?>/img/facilities_11.jpg" class="img-responsive"
                                                                 alt="facilities_img_11">
                                                             </a>
                                                             <div class="modal fade" id="Modal_11" tabindex="-1">
                                                                 <div class="modal-dialog modal-lg">
                                                                     <div class="modal-content">
                                                                         <div class="modal-body">
-                                                                            <img src="<?php bloginfo('template_url'); ?>/img/facilities_11_l.jpg"
+                                                                            <img src="<?php bloginfo('template_url');?>/img/facilities_11_l.jpg"
                                                                             class="img-responsive" alt="facilities_img_11">
                                                                         </div>
                                                                     </div>
@@ -463,14 +463,14 @@
                                                     <div class="col-md-3">
                                                         <div class="team-member">
                                                             <a href="#" data-toggle="modal" data-target="#Modal_12">
-                                                                <img src="<?php bloginfo('template_url'); ?>/img/facilities_12.jpg" class="img-responsive"
+                                                                <img src="<?php bloginfo('template_url');?>/img/facilities_12.jpg" class="img-responsive"
                                                                 alt="facilities_img_5">
                                                             </a>
                                                             <div class="modal fade" id="Modal_12" tabindex="-1">
                                                                 <div class="modal-dialog modal-lg">
                                                                     <div class="modal-content">
                                                                         <div class="modal-body">
-                                                                            <img src="<?php bloginfo('template_url'); ?>/img/facilities_12_l.jpg"
+                                                                            <img src="<?php bloginfo('template_url');?>/img/facilities_12_l.jpg"
                                                                             class="img-responsive" alt="facilities_img_12">
                                                                         </div>
                                                                     </div>
@@ -481,14 +481,14 @@
                                                     <div class="col-md-3">
                                                         <div class="team-member">
                                                             <a href="#" data-toggle="modal" data-target="#Modal_13">
-                                                                <img src="<?php bloginfo('template_url'); ?>/img/facilities_13.jpg" class="img-responsive"
+                                                                <img src="<?php bloginfo('template_url');?>/img/facilities_13.jpg" class="img-responsive"
                                                                 alt="facilities_img_13">
                                                             </a>
                                                             <div class="modal fade" id="Modal_13" tabindex="-1">
                                                                 <div class="modal-dialog modal-lg">
                                                                     <div class="modal-content">
                                                                         <div class="modal-body">
-                                                                            <img src="<?php bloginfo('template_url'); ?>/img/facilities_13_l.jpg"
+                                                                            <img src="<?php bloginfo('template_url');?>/img/facilities_13_l.jpg"
                                                                             class="img-responsive" alt="facilities_img_13">
                                                                         </div>
                                                                     </div>
@@ -499,14 +499,14 @@
                                                     <div class="col-md-3">
                                                         <div class="team-member">
                                                             <a href="#" data-toggle="modal" data-target="#Modal_14">
-                                                                <img src="<?php bloginfo('template_url'); ?>/img/facilities_14.jpg" class="img-responsive"
+                                                                <img src="<?php bloginfo('template_url');?>/img/facilities_14.jpg" class="img-responsive"
                                                                 alt="facilities_img_14">
                                                             </a>
                                                             <div class="modal fade" id="Modal_14" tabindex="-1">
                                                                 <div class="modal-dialog modal-lg">
                                                                     <div class="modal-content">
                                                                         <div class="modal-body">
-                                                                            <img src="<?php bloginfo('template_url'); ?>/img/facilities_14.jpg"
+                                                                            <img src="<?php bloginfo('template_url');?>/img/facilities_14.jpg"
                                                                             class="img-responsive" alt="facilities_img_14">
                                                                         </div>
                                                                     </div>
@@ -517,14 +517,14 @@
                                                     <div class="col-md-3">
                                                         <div class="team-member">
                                                             <a href="#" data-toggle="modal" data-target="#Modal_15">
-                                                                <img src="<?php bloginfo('template_url'); ?>/img/facilities_15.jpg" class="img-responsive"
+                                                                <img src="<?php bloginfo('template_url');?>/img/facilities_15.jpg" class="img-responsive"
                                                                 alt="facilities_img_15">
                                                             </a>
                                                             <div class="modal fade" id="Modal_15" tabindex="-1">
                                                                 <div class="modal-dialog modal-lg">
                                                                     <div class="modal-content">
                                                                         <div class="modal-body">
-                                                                            <img src="<?php bloginfo('template_url'); ?>/img/facilities_15.jpg"
+                                                                            <img src="<?php bloginfo('template_url');?>/img/facilities_15.jpg"
                                                                             class="img-responsive" alt="facilities_img_15">
                                                                         </div>
                                                                     </div>
@@ -545,15 +545,15 @@
                                                     <h3 class="section-subheading text-muted">料金案内</h3>
                                                     <p style="margin-bottom:30px;">初回トライアルおよび月会費はこちらをご覧ください</p>
                                                     <p>
-                                                        <a href="<?php bloginfo('template_url'); ?>/pdf/医科研運動療法【基本料金】.pdf"
-                                                           class="text-primary">料金表(PDF)</a>
-                                                       </p>
-                                                   </div>
-                                               </div>
-                                           </div>
-                                       </section>
-                                       <!-- ForCompanies Section -->
-                                       <section id="ForCompanies" class="bg-light-gray">
+                                                        <a href="<?php bloginfo('template_url');?>/pdf/医科研運動療法【基本料金】.pdf"
+                                                         class="text-primary">料金表(PDF)</a>
+                                                     </p>
+                                                 </div>
+                                             </div>
+                                         </div>
+                                     </section>
+                                     <!-- ForCompanies Section -->
+                                     <section id="ForCompanies" class="bg-light-gray">
                                         <div class="container">
                                             <div class="row">
                                                 <div class="col-lg-12 text-center">
@@ -647,33 +647,33 @@
                                                             <div class="col-md-6 col-xs-12" style="margin-bottom:25px;">
                                                                 <p class="lead">新着記事</p>
                         <?php // 5件のみ
-                        query_posts('posts_per_page=10');
-                        if (have_posts()) {
-                            ?>
-                            <?php
-                            while (have_posts()): the_post(); ?>
-                                <p style="border-bottom:1px solid #CCC;">
-                                    <a href="<?php the_permalink(); ?>">
-                                        <span style="margin-right:10px;"><?php the_time('Y.m.d'); ?></span>
-                                        <?php the_title(); ?>
-                                    </a>
-                                </p>
-                            <?php endwhile; ?>
-                            <?php
-                        } else {
-                            ?>
-                            <p>ブログの投稿がありません</p>
-                            <?php
-                        }
-                        wp_reset_query();
-                        ?>
-                    </div>
-                    <div class="col-md-6 col-xs-12">
-                        <p class="lead">アーカイブ</p>
-                        <ul class="list-unstyled">
-                            <?php wp_get_archives( 'post_type=post&type=monthly&show_post_count=1' ); ?>
-                        </ul>
-                    </div>
+query_posts('posts_per_page=10');
+if (have_posts()) {
+	?>
+                           <?php
+while (have_posts()): the_post();?>
+				                             <p style="border-bottom:1px solid #CCC;">
+				                                 <a href="<?php the_permalink();?>">
+				                                     <span style="margin-right:10px;"><?php the_time('Y.m.d');?></span>
+				                                     <?php the_title();?>
+				                                 </a>
+				                             </p>
+				                         <?php endwhile;?>
+                         <?php
+} else {
+	?>
+                       <p>ブログの投稿がありません</p>
+                       <?php
+}
+wp_reset_query();
+?>
+               </div>
+               <div class="col-md-6 col-xs-12">
+                <p class="lead">アーカイブ</p>
+                <ul class="list-unstyled">
+                    <?php wp_get_archives('post_type=post&type=monthly&show_post_count=1');?>
+                </ul>
+            </div>
         </section>
         <!-- Recruit Section -->
         <section id="Recruit">
@@ -765,4 +765,4 @@
 </div>
 </section>
 <!-- Footer -->
-<?php get_footer(); ?>
+<?php get_footer();?>
