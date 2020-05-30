@@ -631,6 +631,16 @@
                                                                 <h1 class="section-heading">Research paper</h1>
                                                                 <h3 class="section-subheading text-muted">研究論文</h3>
                                                             </div>
+                                                            <div class="col-lg-12">
+                                                                <div class="container">
+                                                                <a href="<?php bloginfo('template_url');?>/pdf/臨床免疫.pdf">
+                                                                    <img src="<?php bloginfo('template_url');?>/img/20200530.jpg" alt="研究論文" Width="100%">
+                                                                </a>
+                                                                <div class="spacer_m text-center">
+                                                                    運動介入による風邪罹患頻度の改善事例報告
+                                                                </div>
+                                                                </div>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </section>
@@ -652,13 +662,13 @@ if (have_posts()) {
 	?>
                            <?php
 while (have_posts()): the_post();?>
-				                             <p style="border-bottom:1px solid #CCC;">
-				                                 <a href="<?php the_permalink();?>">
-				                                     <span style="margin-right:10px;"><?php the_time('Y.m.d');?></span>
-				                                     <?php the_title();?>
-				                                 </a>
-				                             </p>
-				                         <?php endwhile;?>
+															                             <p style="border-bottom:1px solid #CCC;">
+															                                 <a href="<?php the_permalink();?>">
+															                                     <span style="margin-right:10px;"><?php the_time('Y.m.d');?></span>
+															                                     <?php the_title();?>
+															                                 </a>
+															                             </p>
+															                         <?php endwhile;?>
                          <?php
 } else {
 	?>
