@@ -23,6 +23,7 @@
             <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet'
             type='text/css'>
             <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+            <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
             <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
             <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
             <!--[if lt IE 9]>
@@ -53,8 +54,8 @@
                         </div>
                         <div class="overlay"></div>
                         <video autoplay muted loop playsinline poster="<?php echo home_url('/'); ?>/img/poster.jpg"
-                           class="img-responsive hidden-xs">
-                           <!-- <source src="<?php bloginfo('template_url'); ?>/img/movie/compressed.mov"> -->
+                         class="img-responsive hidden-xs">
+                         <!-- <source src="<?php bloginfo('template_url'); ?>/img/movie/compressed.mov"> -->
                             <source src="sample.ogv">
                                 <source src="sample.webm">
                                     <p>動画を再生するには、videoタグをサポートしたブラウザが必要です。</p>
@@ -63,7 +64,7 @@
                         </header>
                         <section class="visible-xs text-center bg-darkest-gray" style="padding:150px 0";>
         <!-- <section class="visible-xs text-center bg-darkest-gray"
-         style="padding:150px 0;background: url('http://orkagym.jp/wp-content/uploads/2020/05/sp_new.gif') no-repeat;background-size:100% 100%;"> -->
+           style="padding:150px 0;background: url('http://orkagym.jp/wp-content/uploads/2020/05/sp_new.gif') no-repeat;background-size:100% 100%;"> -->
             <!-- <h1 class="section-heading hidden-xs">ORKA GYM</h1>
                         <div style="position:absolute;z-index:0;top:0;left:0;right:0;bottom:0;margin:auto;margin-top:100px;">
                             <h1 class="section-heading visible-xs small" style="margin-top:100px">ORKA GYM</h1>
@@ -546,106 +547,302 @@
                                                     <p style="margin-bottom:30px;">初回トライアルおよび月会費はこちらをご覧ください</p>
                                                     <p>
                                                         <a href="<?php bloginfo('template_url'); ?>/pdf/医科研運動療法【基本料金】.pdf"
-                                                           class="text-primary">料金表(PDF)</a>
-                                                       </p>
-                                                   </div>
-                                               </div>
-                                           </div>
-                                       </section>
-                                       <!-- ForCompanies Section -->
-                                       <section id="ForCompanies" class="bg-light-gray">
+                                                         class="text-primary">料金表(PDF)</a>
+                                                     </p>
+                                                 </div>
+                                             </div>
+                                         </div>
+                                     </section>
+                                     <!-- ForCompanies Section -->
+                                     <section id="ForCompanies" class="bg-light-gray">
                                         <div class="container">
                                             <div class="row">
                                                 <div class="col-lg-12 text-center">
-                                                    <h1 class="section-heading">FOR COMPANIES</h1>
-                                                    <h3 class="section-subheading text-muted">法人の皆様へ</h3>
+                                                    <h1 class="section-heading">MEDIA</h1>
+                                                    <h3 class="section-subheading text-muted">メディア</h3>
                                                 </div>
                                             </div>
-                                            <div class="row text-center">
-                                                <div class="col-lg-12">
-                                                    <p>Under Construction</p>
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <ul class="slick01">
+                                                       <li>
+                                                        <a href="#" data-toggle="modal" data-target="#Modal_16">
+                                                            <img src="<?php bloginfo('template_url'); ?>/img/media/1.jpg" class="img-responsive"
+                                                            alt="media_1">
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" data-toggle="modal" data-target="#Modal_17">
+                                                            <img src="<?php bloginfo('template_url'); ?>/img/media/2.jpg" class="img-responsive"
+                                                            alt="media_2">
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" data-toggle="modal" data-target="#Modal_18">
+                                                            <img src="<?php bloginfo('template_url'); ?>/img/media/3.jpg" class="img-responsive"
+                                                            alt="media_3">
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" data-toggle="modal" data-target="#Modal_19">
+                                                            <img src="<?php bloginfo('template_url'); ?>/img/media/4.jpg" class="img-responsive"
+                                                            alt="media_4">
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" data-toggle="modal" data-target="#Modal_20">
+                                                            <img src="<?php bloginfo('template_url'); ?>/img/media/5.jpg" class="img-responsive"
+                                                            alt="media_5">
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" data-toggle="modal" data-target="#Modal_21">
+                                                            <img src="<?php bloginfo('template_url'); ?>/img/media/6.jpg" class="img-responsive"
+                                                            alt="media_6">
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" data-toggle="modal" data-target="#Modal_22">
+                                                            <img src="<?php bloginfo('template_url'); ?>/img/media/7.jpg" class="img-responsive"
+                                                            alt="media_7">
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" data-toggle="modal" data-target="#Modal_23">
+                                                            <img src="<?php bloginfo('template_url'); ?>/img/media/8.jpg" class="img-responsive"
+                                                            alt="media_8">
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" data-toggle="modal" data-target="#Modal_24">
+                                                            <img src="<?php bloginfo('template_url'); ?>/img/media/9.jpg" class="img-responsive"
+                                                            alt="media_9">
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" data-toggle="modal" data-target="#Modal_25">
+                                                            <img src="<?php bloginfo('template_url'); ?>/img/media/10.png" class="img-responsive"
+                                                            alt="media_10">
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" data-toggle="modal" data-target="#Modal_26">
+                                                            <img src="<?php bloginfo('template_url'); ?>/img/media/11.jpg" class="img-responsive"
+                                                            alt="media_11">
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" data-toggle="modal" data-target="#Modal_27">
+                                                            <img src="<?php bloginfo('template_url'); ?>/img/media/12.jpg" class="img-responsive"
+                                                            alt="media_12">
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+
+                                            <!-- Media モーダル -->
+                                            <div class="modal fade" id="Modal_16" tabindex="-1">
+                                                <div class="modal-dialog modal-lg">
+                                                    <div class="modal-content">
+                                                        <div class="modal-body">
+                                                            <img src="<?php bloginfo('template_url'); ?>/img/media/1.jpg"
+                                                            class="img-responsive" alt="media_1">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="modal fade" id="Modal_17" tabindex="-1">
+                                                <div class="modal-dialog modal-lg">
+                                                    <div class="modal-content">
+                                                        <div class="modal-body">
+                                                            <img src="<?php bloginfo('template_url'); ?>/img/media/2.jpg"
+                                                            class="img-responsive" alt="media_2">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="modal fade" id="Modal_18" tabindex="-1">
+                                                <div class="modal-dialog modal-lg">
+                                                    <div class="modal-content">
+                                                        <div class="modal-body">
+                                                            <img src="<?php bloginfo('template_url'); ?>/img/media/3.jpg"
+                                                            class="img-responsive" alt="media_3">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="modal fade" id="Modal_19" tabindex="-1">
+                                                <div class="modal-dialog modal-lg">
+                                                    <div class="modal-content">
+                                                        <div class="modal-body">
+                                                            <img src="<?php bloginfo('template_url'); ?>/img/media/4.jpg"
+                                                            class="img-responsive" alt="media_4">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="modal fade" id="Modal_20" tabindex="-1">
+                                                <div class="modal-dialog modal-lg">
+                                                    <div class="modal-content">
+                                                        <div class="modal-body">
+                                                            <img src="<?php bloginfo('template_url'); ?>/img/media/5.jpg"
+                                                            class="img-responsive" alt="media_5">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="modal fade" id="Modal_21" tabindex="-1">
+                                                <div class="modal-dialog modal-lg">
+                                                    <div class="modal-content">
+                                                        <div class="modal-body">
+                                                            <img src="<?php bloginfo('template_url'); ?>/img/media/6.jpg"
+                                                            class="img-responsive" alt="media_6">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="modal fade" id="Modal_22" tabindex="-1">
+                                                <div class="modal-dialog modal-lg">
+                                                    <div class="modal-content">
+                                                        <div class="modal-body">
+                                                            <img src="<?php bloginfo('template_url'); ?>/img/media/7.jpg"
+                                                            class="img-responsive" alt="media_7">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="modal fade" id="Modal_23" tabindex="-1">
+                                                <div class="modal-dialog modal-lg">
+                                                    <div class="modal-content">
+                                                        <div class="modal-body">
+                                                            <img src="<?php bloginfo('template_url'); ?>/img/media/8.jpg"
+                                                            class="img-responsive" alt="media_8">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="modal fade" id="Modal_24" tabindex="-1">
+                                                <div class="modal-dialog modal-lg">
+                                                    <div class="modal-content">
+                                                        <div class="modal-body">
+                                                            <img src="<?php bloginfo('template_url'); ?>/img/media/9.jpg"
+                                                            class="img-responsive" alt="media_9">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="modal fade" id="Modal_25" tabindex="-1">
+                                                <div class="modal-dialog modal-lg">
+                                                    <div class="modal-content">
+                                                        <div class="modal-body">
+                                                            <img src="<?php bloginfo('template_url'); ?>/img/media/10.png"
+                                                            class="img-responsive" alt="media_10">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="modal fade" id="Modal_26" tabindex="-1">
+                                                <div class="modal-dialog modal-lg">
+                                                    <div class="modal-content">
+                                                        <div class="modal-body">
+                                                            <img src="<?php bloginfo('template_url'); ?>/img/media/11.jpg"
+                                                            class="img-responsive" alt="media_11">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="modal fade" id="Modal_27" tabindex="-1">
+                                                <div class="modal-dialog modal-lg">
+                                                    <div class="modal-content">
+                                                        <div class="modal-body">
+                                                            <img src="<?php bloginfo('template_url'); ?>/img/media/12.jpg"
+                                                            class="img-responsive" alt="media_12">
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
-                                    </section>
-                                    <!-- CompanyOverView Section -->
-                                    <section id="CompanyOverView">
-                                        <div class="container">
-                                            <div class="row">
-                                                <div class="col-lg-12 text-center">
-                                                    <h1 class="section-heading">COMPANY OVERVIEW</h1>
-                                                    <h3 class="section-subheading text-muted">企業情報</h3>
-                                                    <p class="visible-xs">※表は横にスクロールしてご覧いただけます</p>
+                                    </div>
+                                </div>
+                            </section>
+                            <!-- CompanyOverView Section -->
+                            <section id="CompanyOverView">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-lg-12 text-center">
+                                            <h1 class="section-heading">COMPANY OVERVIEW</h1>
+                                            <h3 class="section-subheading text-muted">企業情報</h3>
+                                            <p class="visible-xs">※表は横にスクロールしてご覧いただけます</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <div class="table-responsive">
+                                                <table class="table">
+                                                    <tr>
+                                                        <th>会社名</th>
+                                                        <td>株式会社DL CHASE jAPAN</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>役員</th>
+                                                        <td>代表取締役 神谷 卓宏
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>住所</th>
+                                                        <td>〒153-0042
+                                                            <br>東京都目黒区青葉台1-20-2 中目黒Place(旧フレッグ中目黒) B1F ORKA GYM
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Tel.</th>
+                                                        <td>
+                                                            <span style="color:#000000;">03-6260-9115</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th>Mail</th>
+                                                                <td>info@dlcj.co.jp</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th>事業内容</th>
+                                                                <td>
+                                                                    <p style="margin-bottom:0;">運動療法施設の運営事業</p>
+                                                                    <p style="margin-bottom:0;">医科学研究事業</p>
+                                                                    <p>健康・スポーツに関する講演事業</p>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </div>
+                                                    <div class="ggmap">
+                                                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d405.2345707679601!2d139.71024338104252!3d35.65541265333046!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x19bb06a0f6850693!2zT1JLQSBHWU3Dl-WMu-enkeWtpueglOeptuaJgA!5e0!3m2!1sja!2sjp!4v1590623148287!5m2!1sja!2sjp" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                                                    </div>
                                                 </div>
                                             </div>
-                                            <div class="row">
-                                                <div class="col-lg-12">
-                                                    <div class="table-responsive">
-                                                        <table class="table">
-                                                            <tr>
-                                                                <th>会社名</th>
-                                                                <td>株式会社DL CHASE jAPAN</td>
-                                                            </tr>
-                                                            <tr>
-                                                                <th>役員</th>
-                                                                <td>代表取締役 神谷 卓宏
-                                                                </td>
-                                                            </tr>
-                                                            <tr>
-                                                                <th>住所</th>
-                                                                <td>〒153-0042
-                                                                    <br>東京都目黒区青葉台1-20-2 中目黒Place(旧フレッグ中目黒) B1F ORKA GYM
-                                                                </td>
-                                                            </tr>
-                                                            <tr>
-                                                                <th>Tel.</th>
-                                                                <td>
-                                                                    <span style="color:#000000;">03-6260-9115</td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <th>Mail</th>
-                                                                        <td>info@dlcj.co.jp</td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <th>事業内容</th>
-                                                                        <td>
-                                                                            <p style="margin-bottom:0;">運動療法施設の運営事業</p>
-                                                                            <p style="margin-bottom:0;">医科学研究事業</p>
-                                                                            <p>健康・スポーツに関する講演事業</p>
-                                                                        </td>
-                                                                    </tr>
-                                                                </table>
-                                                            </div>
-                                                            <div class="ggmap">
-                                                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d405.2345707679601!2d139.71024338104252!3d35.65541265333046!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x19bb06a0f6850693!2zT1JLQSBHWU3Dl-WMu-enkeWtpueglOeptuaJgA!5e0!3m2!1sja!2sjp!4v1590623148287!5m2!1sja!2sjp" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </section>
+                                        </section>
 
-                                                <!-- AthleteSupport Section -->
-                                                <section id="AthleteSupport" class="bg-light-gray">
-                                                    <div class="container">
-                                                        <div class="row">
-                                                            <div class="col-lg-12 text-center">
-                                                                <h1 class="section-heading">Research paper</h1>
-                                                                <h3 class="section-subheading text-muted">研究論文</h3>
-                                                            </div>
-                                                        </div>
+                                        <!-- AthleteSupport Section -->
+                                        <section id="AthleteSupport" class="bg-light-gray">
+                                            <div class="container">
+                                                <div class="row">
+                                                    <div class="col-lg-12 text-center">
+                                                        <h1 class="section-heading">Research paper</h1>
+                                                        <h3 class="section-subheading text-muted">研究論文</h3>
                                                     </div>
-                                                </section>
-                                                <!-- Blog Section -->
-                                                <section id="Blog">
-                                                    <div class="container">
-                                                        <div class="row">
-                                                            <div class="col-lg-12 text-center">
-                                                                <h1 class="section-heading">BLOG</h1>
-                                                                <h3 class="section-subheading text-muted">ブログ</h3>
-                                                            </div>
-                                                        </div>
-                                                        <div class="row">
-                                                            <div class="col-md-6 col-xs-12" style="margin-bottom:25px;">
-                                                                <p class="lead">新着記事</p>
+                                                </div>
+                                            </div>
+                                        </section>
+                                        <!-- Blog Section -->
+                                        <section id="Blog">
+                                            <div class="container">
+                                                <div class="row">
+                                                    <div class="col-lg-12 text-center">
+                                                        <h1 class="section-heading">BLOG</h1>
+                                                        <h3 class="section-subheading text-muted">ブログ</h3>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-md-6 col-xs-12" style="margin-bottom:25px;">
+                                                        <p class="lead">新着記事</p>
                         <?php // 5件のみ
                         query_posts('posts_per_page=10');
                         if (have_posts()) {
@@ -674,15 +871,15 @@
                             <?php wp_get_archives( 'post_type=post&type=monthly&show_post_count=1' ); ?>
                         </ul>
                     </div>
-        </section>
-        <!-- Recruit Section -->
-        <section id="Recruit">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <h1 class="section-heading">RECRUIT</h1>
-                        <h3 class="section-subheading text-muted">採用情報</h3>
-                        <p>現在募集を行っておりません。</p>
+                </section>
+                <!-- Recruit Section -->
+                <section id="Recruit">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12 text-center">
+                                <h1 class="section-heading">RECRUIT</h1>
+                                <h3 class="section-subheading text-muted">採用情報</h3>
+                                <p>現在募集を行っておりません。</p>
                         <!--<p class="visible-xs">※表は横にスクロールしてご覧いただけます</p>
             </div>
         </div>

@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-md-12">
                 <ul class="nav navbar-nav center-nav">
-                    <li class="hidden-xs hidden-sm"><a class="page-scroll" href="<?php echo home_url( '/' ); ?>#ForCompanies"><small>FOR COMPANIES</small><br>法人の皆様へ</a>
+                    <li class="hidden-xs hidden-sm"><a class="page-scroll" href="<?php echo home_url( '/' ); ?>#ForCompanies"><small>MEDIA</small><br>メディア</a>
                     </li>
                     <li class="hidden-xs hidden-sm"><a class="page-scroll" href="<?php echo home_url( '/' ); ?>#CompanyOverView"><small>COMPANY OVER VIEW</small><br>企業情報</a>
                     </li>
@@ -37,6 +37,24 @@
 <script src="<?php bloginfo('template_url'); ?>/js/contact_me.js"></script>
 <!-- Custom Theme JavaScript -->
 <script src="<?php bloginfo('template_url'); ?>/js/agency.js"></script>
+<!-- slick -->
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+<script>
+
+$('.slick01').slick({
+    arrows: false,
+    autoplay: true,
+    /* ポイントここから～ */
+    autoplaySpeed: 0,
+    cssEase: 'linear',
+    speed: 8000,
+    /* ～ここまで */
+    slidesToShow: 3,
+    slidesToScroll: 1,
+});
+
+</script>
 </body>
 
 </html>
