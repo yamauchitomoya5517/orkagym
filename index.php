@@ -744,9 +744,80 @@
                     </div>
                 </div>
             </div>
+            <div class="modal fade" id="Modal_28" tabindex="-1">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <img src="<?php bloginfo('template_url'); ?>/img/20200530.jpg"
+                                 class="img-responsive" alt="media_12">
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
+</section>
+<!-- AthleteSupport Section -->
+<section id="AthleteSupport">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h1 class="section-heading">Research paper</h1>
+                <h3 class="section-subheading text-muted">研究論文</h3>
+            </div>
+            <div class="col-md-12">
+                <ul class="slick01">
+                    <li style="margin-right:15px;">
+                        <a href="#" data-toggle="modal" data-target="#Modal_28">
+                            <img src="<?php bloginfo('template_url'); ?>/img/20200530.jpg" class="img-responsive"
+                                 alt="media_1">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </div>
+</section>
+<!-- Blog Section -->
+<section id="Blog" class="bg-light-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h1 class="section-heading">BLOG</h1>
+                <h3 class="section-subheading text-muted">ブログ</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-xs-12" style="margin-bottom:25px;">
+                <p class="lead">新着記事</p>
+                <?php // 5件のみ
+                query_posts('posts_per_page=10');
+                if (have_posts()) {
+                    ?>
+                    <?php
+                    while (have_posts()): the_post(); ?>
+                        <p style="border-bottom:1px solid #CCC;">
+                            <a href="<?php the_permalink(); ?>">
+                                <span style="margin-right:10px;"><?php the_time('Y.m.d'); ?></span>
+                                <?php the_title(); ?>
+                            </a>
+                        </p>
+                    <?php endwhile; ?>
+                    <?php
+                } else {
+                    ?>
+                    <p>ブログの投稿がありません</p>
+                    <?php
+                }
+                wp_reset_query();
+                ?>
+            </div>
+            <div class="col-md-6 col-xs-12">
+                <p class="lead">アーカイブ</p>
+                <ul class="list-unstyled">
+                    <?php wp_get_archives('post_type=post&type=monthly&show_post_count=1'); ?>
+                </ul>
+            </div>
 </section>
 <!-- CompanyOverView Section -->
 <section id="CompanyOverView" class="bg-light-gray">
@@ -801,148 +872,6 @@
                             width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""
                             aria-hidden="false" tabindex="0"></iframe>
                 </div>
-            </div>
-        </div>
-</section>
-
-<!-- AthleteSupport Section -->
-<section id="AthleteSupport">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h1 class="section-heading">Research paper</h1>
-                <h3 class="section-subheading text-muted">研究論文</h3>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- Blog Section -->
-<section id="Blog" class="bg-light-gray">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h1 class="section-heading">BLOG</h1>
-                <h3 class="section-subheading text-muted">ブログ</h3>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6 col-xs-12" style="margin-bottom:25px;">
-                <p class="lead">新着記事</p>
-                <?php // 5件のみ
-                query_posts('posts_per_page=10');
-                if (have_posts()) {
-                    ?>
-                    <?php
-                    while (have_posts()): the_post(); ?>
-                        <p style="border-bottom:1px solid #CCC;">
-                            <a href="<?php the_permalink(); ?>">
-                                <span style="margin-right:10px;"><?php the_time('Y.m.d'); ?></span>
-                                <?php the_title(); ?>
-                            </a>
-                        </p>
-                    <?php endwhile; ?>
-                    <?php
-                } else {
-                    ?>
-                    <p>ブログの投稿がありません</p>
-                    <?php
-                }
-                wp_reset_query();
-                ?>
-            </div>
-            <div class="col-md-6 col-xs-12">
-                <p class="lead">アーカイブ</p>
-                <ul class="list-unstyled">
-                    <?php wp_get_archives('post_type=post&type=monthly&show_post_count=1'); ?>
-                </ul>
-            </div>
-</section>
-<!-- Recruit Section -->
-<section id="Recruit">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h1 class="section-heading">RECRUIT</h1>
-                <h3 class="section-subheading text-muted">採用情報</h3>
-                <p>現在募集を行っておりません。</p>
-                <!--<p class="visible-xs">※表は横にスクロールしてご覧いただけます</p>
-    </div>
-</div>
-<div class="row">
-    <div class="col-lg-12">
-        <div class="col-lg-12 bg-darkest-gray img-rounded spacer_m">
-            <h4 class="text-center">【募集要項】</h4>
-            <div class="table-responsive">
-                <table class="table">
-                    <caption class="text-center">&nbsp;</caption>
-                    <tbody>
-                        <tr>
-                            <td>雇用形態</td>
-                            <td>正社員</td>
-                        </tr>
-                        <tr>
-                            <td>職務内容</td>
-                            <td>パーソナルトレーニング指導およびフロント業務</td>
-                        </tr>
-                        <tr>
-                            <td>勤務地</td>
-                            <td>ORKA GYM</td>
-                        </tr>
-                        <tr>
-                            <td>勤務時間</td>
-                            <td>平日10:00〜22:00 土日祝日10:00〜20:00</td>
-                        </tr>
-                        <tr>
-                            <td>休日</td>
-                            <td>月に8日間</td>
-                        </tr>
-                        <tr>
-                            <td>給与</td>
-                            <td>弊社規定に準ずる（試用期間6ヶ月以内）</td>
-                        </tr>
-                        <tr>
-                            <td>賞与</td>
-                            <td>年2回</td>
-                        </tr>
-                        <tr>
-                            <td>待遇</td>
-                            <td>交通費支給、制服貸与</td>
-                        </tr>
-                        <tr>
-                            <td>応募資格</td>
-                            <td>国家資格（理学療法士、管理栄養士etc）およびNATA-ATC、ACSM、NSCA、NASM、JATIの有資格者。その他資格の場合、上記基準と同等の者。</td>
-                        </tr>
-                        <tr>
-                            <td>応募方法</td>
-                            <td>最終学歴とスポーツ競技歴ならびに自己PR文をメールにて送信下さい。（書き方自由）</td>
-                        </tr>
-                        <tr>
-                            <td>選考方法</td>
-                            <td> 一次試験（書類審査） 二次試験（面接および実技試験） 三次面接（役員面接）</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <ul class="list-unstyled center-nav text-center">
-                <li class="lead">【施設見学・会社説明】</li>
-                <li>事前受付が必要となります。希望する日程を採用担当宛までメールにてご連絡ください。</li>
-                <li>&nbsp;</li>
-                <li class="lead">【応募・問い合わせ先】</li>
-                <li>
-                    <address>
-                        <strong>株式会社 DL CHASE jAPAN</strong>
-                        <br> 〒153-0042
-                        <br> 東京都目黒区青葉台1-20-2 中目黒Place(旧フレッグ中目黒) B1F
-                        <br>
-                    <abbr title="Phone">TEL:</abbr> 03-6260-9115
-                    <br>
-                    <a class="page-scroll" href="#ReserveContact">Mail：info@dlcj.co.jp</a>
-                    <br> 窓口：採用担当宛
-                </address>
-            </li>
-        </ul>
-    </div>
-</div>-->
             </div>
         </div>
 </section>
