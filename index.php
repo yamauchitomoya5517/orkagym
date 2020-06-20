@@ -813,10 +813,15 @@
                 ?>
             </div>
             <div class="col-md-6 col-xs-12">
-                <p class="lead">アーカイブ</p>
-                <ul class="list-unstyled">
-                    <?php wp_get_archives('post_type=post&type=monthly&show_post_count=1'); ?>
-                </ul>
+            <p class="lead">アーカイブ</p>
+            <ul class="list-unstyled">
+            <?php
+$args = array(
+    'type' => 'yearly',
+    'show_post_count' => 1,
+);
+wp_get_archives($args); ?>
+</ul>
             </div>
 </section>
 <!-- CompanyOverView Section -->
