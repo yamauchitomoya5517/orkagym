@@ -37,11 +37,11 @@ Template Name: archive
     </head>
 
     <body id="page-top" class="index">
-        <?php include_once("analyticstracking.php") ?>
+        <?php include_once 'analyticstracking.php'; ?>
             <!-- Navigation -->
             <?php get_header(); ?>
                 <!-- Archive Section -->
-                <section id="Archive">
+                <section style="background-color:#222;">
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-12 text-center">
@@ -57,9 +57,9 @@ Template Name: archive
                             </div>
                             <div class="col-lg-12">
                                 <p>
-                                    <?php the_time("Y年m月j日") ?>
+                                    <?php the_time('Y年m月j日'); ?>
                                 </p>
-                                <h4><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h4>
+                                <h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
                             </div>
                             <div class="col-lg-12">
                                 <?php endwhile; ?>

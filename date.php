@@ -37,11 +37,11 @@ Template Name: date
 </head>
 
 <body id="page-top" class="index">
-    <?php include_once("analyticstracking.php") ?>
+    <?php include_once 'analyticstracking.php'; ?>
     <!-- Navigation -->
     <?php get_header(); ?>
     <!-- Archive Section -->
-    <section id="Archive" style="height:100vh;">
+    <section id="Archive">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -50,8 +50,8 @@ Template Name: date
                 </div>
             </div>
             <div class="row">
-                <?php if ( have_posts() ): ?>
-                    <?php while ( have_posts() ) : the_post(); ?>
+                <?php if (have_posts()): ?>
+                    <?php while (have_posts()) : the_post(); ?>
                         <!--ループ-->
                         <a href="<?php the_permalink(); ?>">
                         <div style="margin-bottom:20px; padding:20px 10px;background-color:#333333;">
@@ -65,12 +65,12 @@ Template Name: date
                         <?php
                         global $wp_query;
         $big = 999999999; // need an unlikely integer
-        echo paginate_links( array(
-            'base' => str_replace( $big, '%#%', esc_url( get_pagenum_link( $big ) ) ),
+        echo paginate_links(array(
+            'base' => str_replace($big, '%#%', esc_url(get_pagenum_link($big))),
             'format' => '?paged=%#%',
-            'current' => max( 1, get_query_var('paged') ),
-            'total' => $wp_query->max_num_pages
-        ) );
+            'current' => max(1, get_query_var('paged')),
+            'total' => $wp_query->max_num_pages,
+        ));
         ?>
     </nav>
     <!--//ページ送り-->
