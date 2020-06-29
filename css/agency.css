@@ -852,17 +852,17 @@ section h3.section-subheading {
     }
 
     section#Message {
-        background-color: #222;
+        background-color: #fff;
         /*background-image: url(http://nucklepart.hippy.jp/20180421.jpg);*/
-        background-image: url(../img/20200510075303.JPEG);
+        /* background-image: url(../img/20200510075303.JPEG); */
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
     }
 
     section#Concept {
-        background-color: #fff;
-        background-image: url(../img/kamiyasan-1.jpg);
+        background-color: #f7f7f7;
+        /* background-image: url(../img/kamiyasan-1.jpg); */
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -966,7 +966,7 @@ section h3.section-subheading {
     }
 
     section#Message {
-        background-color: #222;
+        background-color: #fff;
         /*background-image: url(http://nucklepart.hippy.jp/20180421.jpg);*/
         /*background-image: url(http://nucklepart.hippy.jp/20190515.jpg);*/
         background-position: center;
@@ -975,8 +975,8 @@ section h3.section-subheading {
     }
 
     section#Concept {
-        background-color: #222;
-        background-image: url(../img/kamiyasan-1.jpg);
+        background-color: #f7f7f7;
+        /* background-image: url(../img/kamiyasan-1.jpg); */
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;

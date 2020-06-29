@@ -55,11 +55,7 @@
         <div class="overlay"></div>
         <video autoplay muted loop playsinline poster="<?php echo home_url('/'); ?>/img/poster.jpg"
                class="img-responsive hidden-xs">
-            <<<<<<< HEAD
-            <!-- <source src="<?php bloginfo('template_url'); ?>/img/movie/compressed.mov"> -->
-            =======
-            <!-- <source src="<?php bloginfo('template_url'); ?>/img/movie/compressed.mov"> -->
-            >>>>>>> master
+            <source src="<?php bloginfo('template_url'); ?>/img/movie/hero.mp4">
             <source src="sample.ogv">
             <source src="sample.webm">
             <p>動画を再生するには、videoタグをサポートしたブラウザが必要です。</p>
@@ -136,12 +132,12 @@
             </div>
 </section>
 <!-- Message Section -->
-<section id="Message" class="bg-darkest-gray" style="padding:200px 0;">
+<section id="Message" style="padding:200px 0;">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h1 class="section-heading hidden-xs"><span class="bg-tpblack">Mission & Vision</span></h1>
-                <h3 class="section-heading visible-xs"><span class="bg-tpblack">Mission & Vision</span></h3>
+                <h1 class="section-heading hidden-xs">Mission & Vision</h1>
+                <h3 class="section-heading visible-xs">Mission & Vision</h3>
                 <h3 class="section-subheading text-muted">ミッション＆ビジョン</h3>
             </div>
         </div>
@@ -150,7 +146,7 @@
                 <!-- <img src="http://nucklepart.hippy.jp/20180421.jpg" class="img-responsive" alt="Message_img_1"> -->
                 <img src="<?php bloginfo('template_url'); ?>/img/20200510075303.JPEG" alt="" class="img-responsive">
             </p>
-            <div class="hidden-xs bg-tpblack">
+            <div class="hidden-xs">
                 <h3 class="text-center">
                     MISSION
                 </h3>
@@ -186,11 +182,11 @@
     </div>
 </section>
 <!-- Concept Section -->
-<section id="Concept" class="bg-darkest-gray" style="padding:200px 0;">
+<section id="Concept" class="bg-light-gray" style="padding:200px 0;">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h1 class="section-heading"><span class="bg-tpblack">CONCEPT</span></h1>
+                <h1 class="section-heading">CONCEPT</h1>
                 <h3 class="section-subheading text-muted">コンセプト</h3>
             </div>
         </div>
@@ -199,7 +195,7 @@
                 <img src="<?php bloginfo('template_url'); ?>/img/kamiyasan-1.jpg" class="img-responsive"
                      alt="Concept_img_1">
             </p>
-            <div class="hidden-xs bg-tpblack">
+            <div class="hidden-xs">
                 <h3 class="text-center ">
                     「予防医学を可視化する」
                 </h3>
