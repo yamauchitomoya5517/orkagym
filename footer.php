@@ -11,7 +11,7 @@
                                 paper</small><br>研究論文</a>
                     </li>
                     <li class="hidden-xs hidden-sm"><a class="page-scroll"
-                                                       href="<?php echo home_url('/'); ?>#Blog"><small>BLOG</small><br>ブログ</a>
+                                                       href="<?php echo home_url('/'); ?>#Blog"><small>NEWS</small><br>ニュース</a>
                     </li>
                     <li class="hidden-xs hidden-sm"><a class="page-scroll"
                                                        href="<?php echo home_url('/'); ?>#CompanyOverView"><small>COMPANY

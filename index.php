@@ -94,6 +94,47 @@
         <a href="http://orkagym.jp/contact/" class="btn btn-xl page-scroll">Contact</a>
     </p>
 </section>
+<!-- Blog Section -->
+<section id="Blog" class="bg-light-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h1 class="section-heading">NEWS</h1>
+                <h3 class="section-subheading text-muted">ニュース</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-xs-12" style="margin-bottom:25px;">
+                <p class="lead">新着記事</p>
+                <?php // 5件のみ
+                query_posts('posts_per_page=10');
+                if (have_posts()) {
+                    ?>
+                    <?php
+                    while (have_posts()): the_post(); ?>
+                        <p style="border-bottom:1px solid #CCC;">
+                            <a href="<?php the_permalink(); ?>">
+                                <span style="margin-right:10px;"><?php the_time('Y.m.d'); ?></span>
+                                <?php the_title(); ?>
+                            </a>
+                        </p>
+                    <?php endwhile; ?>
+                    <?php
+                } else {
+                    ?>
+                    <p>ブログの投稿がありません</p>
+                    <?php
+                }
+                wp_reset_query();
+                ?>
+            </div>
+            <div class="col-md-6 col-xs-12">
+                <p class="lead">アーカイブ</p>
+                <ul class="list-unstyled">
+                    <?php wp_get_archives('post_type=post&type=yearly&show_post_count=1'); ?>
+                </ul>
+            </div>
+</section>
 <!-- Message Section -->
 <section id="Message" class="bg-darkest-gray" style="padding:200px 0;">
     <div class="container">
@@ -778,47 +819,7 @@
         </div>
     </div>
 </section>
-<!-- Blog Section -->
-<section id="Blog" class="bg-light-gray">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h1 class="section-heading">BLOG</h1>
-                <h3 class="section-subheading text-muted">ブログ</h3>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6 col-xs-12" style="margin-bottom:25px;">
-                <p class="lead">新着記事</p>
-                <?php // 5件のみ
-                query_posts('posts_per_page=10');
-                if (have_posts()) {
-                    ?>
-                    <?php
-                    while (have_posts()): the_post(); ?>
-                        <p style="border-bottom:1px solid #CCC;">
-                            <a href="<?php the_permalink(); ?>">
-                                <span style="margin-right:10px;"><?php the_time('Y.m.d'); ?></span>
-                                <?php the_title(); ?>
-                            </a>
-                        </p>
-                    <?php endwhile; ?>
-                    <?php
-                } else {
-                    ?>
-                    <p>ブログの投稿がありません</p>
-                    <?php
-                }
-                wp_reset_query();
-                ?>
-            </div>
-            <div class="col-md-6 col-xs-12">
-                <p class="lead">アーカイブ</p>
-                <ul class="list-unstyled">
-                    <?php wp_get_archives('post_type=post&type=monthly&show_post_count=1'); ?>
-                </ul>
-            </div>
-</section>
+
 <!-- CompanyOverView Section -->
 <section id="CompanyOverView" class="bg-light-gray">
     <div class="container">

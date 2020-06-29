@@ -45,13 +45,15 @@ function pagination($pages = '', $range = 2)
     }
 }
 /* 投稿アーカイブページの作成 */
-function post_has_archive($args, $post_type)
+function add_nen_year_archives($link_html)
 {
-    if ('post' == $post_type) {
-        $args['rewrite'] = true;
-        $args['has_archive'] = 'date'; //任意のスラッグ名
-    }
+    $regex = array(
+        "/ title='([\d]{4})'/" => " title='$1年'",
+        "/ ([\d]{4}) /" => ' $1年 ',
+        "/>([\d]{4})<\/a>/" => '>$1年</a>',
+    );
+    $link_html = preg_replace(array_keys($regex), $regex, $link_html);
 
-    return $args;
+    return $link_html;
 }
-add_filter('register_post_type_args', 'post_has_archive', 10, 2);
+add_filter('get_archives_link', 'add_nen_year_archives');
