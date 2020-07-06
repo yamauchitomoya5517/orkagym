@@ -3,22 +3,30 @@
         <div class="row">
             <div class="col-md-12">
                 <ul class="nav navbar-nav center-nav">
-                    <li class="hidden-xs hidden-sm"><a class="page-scroll"
-                                                       href="<?php echo home_url('/'); ?>#ForCompanies"><small>MEDIA</small><br>メディア</a>
-                    </li>
-                    <li class="hidden-xs hidden-sm"><a class="page-scroll"
-                                                       href="<?php echo home_url('/'); ?>#AthleteSupport"><small>Research
-                                paper</small><br>研究論文</a>
-                    </li>
-                    <li class="hidden-xs hidden-sm"><a class="page-scroll"
+                <li class="hidden-xs hidden-sm"><a class="page-scroll"
                                                        href="<?php echo home_url('/'); ?>#Blog"><small>NEWS</small><br>ニュース</a>
                     </li>
                     <li class="hidden-xs hidden-sm"><a class="page-scroll"
-                                                       href="<?php echo home_url('/'); ?>#CompanyOverView"><small>COMPANY
-                                OVER VIEW</small><br>企業情報</a>
+                                                       href="<?php echo home_url('/'); ?>#ForCompanies"><small>MEDIA</small><br>メディア</a>
                     </li>
-                    <li class="hidden-xs hidden-sm"><a class="page-scroll" href="http://orkagym.jp/contact/"><small>RESERVE＆CONTACT</small><br>ご予約・お問合せ</a>
+                    <li class="hidden-xs hidden-sm">
+                    <a class="page-scroll" href="<?php echo home_url('/'); ?>#Message"><small>Mission & Vision</small><br>ミッション&ビジョン</a>
                     </li>
+                    <li class="hidden-xs hidden-sm">
+                    <a class="page-scroll" href="<?php echo home_url('/'); ?>#Concept"><small>CONCEPT</small><br>コンセプト</a>
+                </li>
+                <li class="hidden-xs hidden-sm">
+                    <a class="page-scroll" href="<?php echo home_url('/'); ?>#PersonalTraining"><small>EXERCISE THERAPY</small><br>運動療法</a>
+                </li>
+                    <li class="hidden-xs hidden-sm"><a class="page-scroll"
+                                                       href="<?php echo home_url('/'); ?>#Trainers"><small>RESEARCHER</small><br>研究者</a>
+                    </li>
+                    <li class="hidden-xs hidden-sm">
+                    <a class="page-scroll" href="<?php echo home_url('/'); ?>#Facilities"><small>FACILITY</small><br>施設案内</a>
+                </li>
+                <li class="hidden-xs hidden-sm">
+                    <a class="page-scroll" href="<?php echo home_url('/'); ?>#Price"><small>PRICE</small><br>料金案内</a>
+                </li>
                 </ul>
             </div>
             <div class="col-md-12">

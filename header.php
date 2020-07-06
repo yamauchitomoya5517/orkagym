@@ -9,7 +9,7 @@
                 <span class="icon-bar"></span>
             </button>
             <p>
-                <a class="navbar-brand page-scroll" href="<?php echo home_url( '/' ); ?>"></a>
+                <a class="navbar-brand page-scroll" href="<?php echo home_url('/'); ?>"></a>
             </p>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -19,37 +19,40 @@
                     <a href="#page-top"></a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="<?php echo home_url( '/' ); ?>#Message"><small>Mission & Vision</small><br>ミッション&ビジョン</a>
+                    <a class="page-scroll" href="<?php echo home_url('/'); ?>#Blog"><small>NEWS</small><br>ニュース</a>
+                </li>
+                <li><a class="page-scroll"
+                                                       href="<?php echo home_url('/'); ?>#ForCompanies"><small>MEDIA</small><br>メディア</a>
+                    </li>
+                <li>
+                    <a class="page-scroll" href="<?php echo home_url('/'); ?>#Message"><small>Mission & Vision</small><br>ミッション&ビジョン</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="<?php echo home_url( '/' ); ?>#Concept"><small>CONCEPT</small><br>コンセプト</a>
+                    <a class="page-scroll" href="<?php echo home_url('/'); ?>#Concept"><small>CONCEPT</small><br>コンセプト</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="<?php echo home_url( '/' ); ?>#PersonalTraining"><small>EXERCISE THERAPY</small><br>運動療法</a>
+                    <a class="page-scroll" href="<?php echo home_url('/'); ?>#PersonalTraining"><small>EXERCISE THERAPY</small><br>運動療法</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="<?php echo home_url( '/' ); ?>#Trainers"><small>MEMBER</small><br>メンバー</a>
+                    <a class="page-scroll" href="<?php echo home_url('/'); ?>#Trainers"><small>RESEARCHER</small><br>研究者</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="<?php echo home_url( '/' ); ?>#Facilities"><small>FACILITY</small><br>施設案内</a>
+                    <a class="page-scroll" href="<?php echo home_url('/'); ?>#Facilities"><small>FACILITY</small><br>施設案内</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="<?php echo home_url( '/' ); ?>#Price"><small>PRICE</small><br>料金案内</a>
+                    <a class="page-scroll" href="<?php echo home_url('/'); ?>#Price"><small>PRICE</small><br>料金案内</a>
                 </li>
                 <li class="hidden-lg hidden-md hidden-sm">
-                    <a class="page-scroll" href="<?php echo home_url( '/' ); ?>#ForCompanies"><small>FOR COMPANIES</small><br>法人の皆様へ</a>
+                    <a class="page-scroll" href="<?php echo home_url('/'); ?>#ForCompanies"><small>FOR COMPANIES</small><br>法人の皆様へ</a>
                 </li>
                 <li class="hidden-lg hidden-md hidden-sm">
-                    <a class="page-scroll" href="<?php echo home_url( '/' ); ?>#CompanyOverView"><small>COMPANY OVER VIEW</small><br>企業情報</a>
+                    <a class="page-scroll" href="<?php echo home_url('/'); ?>#CompanyOverView"><small>COMPANY OVER VIEW</small><br>企業情報</a>
                 </li>
                  <li class="hidden-lg hidden-md hidden-sm">
-                    <a class="page-scroll" href="<?php echo home_url( '/' ); ?>#AthleteSupport"><small>CSR</small><br>社会貢献活動</a>
+                    <a class="page-scroll" href="<?php echo home_url('/'); ?>#AthleteSupport"><small>CSR</small><br>社会貢献活動</a>
                 </li>
                 <li class="hidden-lg hidden-md hidden-sm">
-                    <a class="page-scroll" href="<?php echo home_url( '/' ); ?>#Blog"><small>BLOG</small><br>ブログ</a>
-                </li>
-                <li class="hidden-lg hidden-md hidden-sm">
-                    <a class="page-scroll" href="<?php echo home_url( '/' ); ?>#Recruit"><small>RECRUIT</small><br>採用情報</a>
+                    <a class="page-scroll" href="<?php echo home_url('/'); ?>#Recruit"><small>RECRUIT</small><br>採用情報</a>
                 </li>
                 <li class="hidden-lg hidden-md hidden-sm">
                     <a class="page-scroll" href="http://orkagym.jp/contact/"><small>RESERVE＆CONTACT</small><br>ご予約・お問合わせ</a>

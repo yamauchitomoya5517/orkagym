@@ -5,7 +5,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="ORKAGYM×医科学研究所｜運動療法を処方する医科学研究所併設トレーニングジム">
+    <meta name="description" content="ORKA Health & Exercise｜ORKA Health & Exerciseは研究所とトレーニングジムを一体化させた運動療法施設です。
+全ての生体反応を定量化することで、個々の特徴を解明し、予防医学的見地から明確なプロトコルを提供致します。">
     <meta name="author" content="">
     <title>
         <?php bloginfo('name'); ?> |
@@ -40,8 +41,8 @@
 <header>
     <div class="embed-responsive embed-responsive-16by9 hidden-xs">
         <div class="inner">
-            <p class="hidden-xs">ORKAGYM×医科学研究所
-                <span class="text-primary">OFFICIAL</span> WEB SITE.</p>
+            <p class="hidden-xs">ORKA Health & Exercise
+                <span class="text-danger">OFFICIAL</span> WEB SITE.</p>
             <ul class="list-inline">
                 <li>
                     <a href="tel:03-6260-9115">
@@ -64,8 +65,8 @@
 </header>
 <section class="visible-xs text-center bg-darkest-gray"
        style="background: url('http://orkagym.jp/wp-content/uploads/2020/07/hero_sp.gif') no-repeat;background-size:100% 100%;">
-       <h3 class="vivsible-xs">ORKAGYM×医科学研究所 </h3>
-                <p><span class="text-primary">OFFICIAL</span> WEB SITE.</p>
+       <h3 class="vivsible-xs">ORKA Health & Exercise</h3>
+                <p><span class="text-danger">OFFICIAL</span> WEB SITE.</p>
                 <ul class="list-inline">
                 <li>
                     <a href="tel:03-6260-9115">
@@ -265,13 +266,9 @@
                     <ul class="list-unstyled spacer-s">
                         <small>
                             <li>株式会社DL CHASE jAPAN 代表取締役</li>
-                            <li>京都大学石原研究室共同研究者</li>
+                            <li>医科学研究所 主任研究員</li>
                             <li>早稲田大学大学院スポーツ科学研究科修了</li>
                             <li>アメリカスポーツ医学会 運動生理学士</li>
-                            <li>HALEO TOP TEAM 所属</li>
-                            <li>NSCA-CSCS</li>
-                            <li>NASM-PES</li>
-                        </small>
                     </ul>
                 </div>
             </div>
@@ -783,7 +780,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h1 class="section-heading">Research paper</h1>
+                <h1 class="section-heading">RESEARCH PAPER</h1>
                 <h3 class="section-subheading text-muted">研究論文</h3>
             </div>
             <div class="col-md-12">

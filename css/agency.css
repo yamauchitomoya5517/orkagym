@@ -1,24 +1,25 @@
 body {
-    overflow-x: hidden;
-    font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
-    position: relative;
+  overflow-x: hidden;
+  font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E",
+    "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+  position: relative;
 }
 
 .text-muted {
-    color: #777
+  color: #777;
 }
 
 .text-primary {
-    color: #27b9e3
+  color: #27b9e3;
 }
 
 p {
-    font-size: 14px;
-    line-height: 1.75
+  font-size: 14px;
+  line-height: 1.75;
 }
 
 p.large {
-    font-size: 16px
+  font-size: 16px;
 }
 
 a,
@@ -26,18 +27,18 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-    outline: 0
+  outline: 0;
 }
 
 a {
-    color: #fff
+  color: #fff;
 }
 
 a:hover,
 a:focus,
 a:active,
 a.active {
-    color: #27b9e3
+  color: #27b9e3;
 }
 
 h1,
@@ -46,36 +47,38 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
-    font-weight: 700
+  font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E",
+    "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+  font-weight: 700;
 }
 
 .img-centered {
-    margin: 0 auto
+  margin: 0 auto;
 }
 
 .bg-light-gray {
-    background-color: #f7f7f7;
-    color: #222;
+  background-color: #f7f7f7;
+  color: #222;
 }
 
 .bg-darkest-gray {
-    background-color: #222;
-    color: #f7f7f7;
+  background-color: #222;
+  color: #f7f7f7;
 }
 
 .bg-sp {
-    background: url('http://orkagym.jp/wp-content/themes/ORKA%20GYM/img/sp.gif');
-    color: #f7f7f7;
+  background: url("http://orkagym.jp/wp-content/themes/ORKA%20GYM/img/sp.gif");
+  color: #f7f7f7;
 }
 
 .btn-primary {
-    color: #fff;
-    background-color: #27b9e3;
-    border-color: #27b9e3;
-    font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
-    text-transform: uppercase;
-    font-weight: 700
+  color: #fff;
+  background-color: #27b9e3;
+  border-color: #27b9e3;
+  font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E",
+    "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+  text-transform: uppercase;
+  font-weight: 700;
 }
 
 .btn-primary:hover,
@@ -83,15 +86,15 @@ h6 {
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-    color: #fff;
-    background-color: #27b9e3;
-    border-color: #27b9e3
+  color: #fff;
+  background-color: #27b9e3;
+  border-color: #27b9e3;
 }
 
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-    background-image: none
+  background-image: none;
 }
 
 .btn-primary.disabled,
@@ -109,25 +112,26 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-    background-color: #27b9e3;
-    border-color: #27b9e3
+  background-color: #27b9e3;
+  border-color: #27b9e3;
 }
 
 .btn-primary .badge {
-    color: #27b9e3;
-    background-color: #fff
+  color: #27b9e3;
+  background-color: #fff;
 }
 
 .btn-xl {
-    color: #fff;
-    background-color: #27b9e3;
-    border-color: #27b9e3;
-    font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
-    text-transform: uppercase;
-    font-weight: 700;
-    border-radius: 3px;
-    font-size: 18px;
-    padding: 20px 40px
+  color: #fff;
+  background-color: #27b9e3;
+  border-color: #27b9e3;
+  font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E",
+    "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 3px;
+  font-size: 18px;
+  padding: 20px 40px;
 }
 
 .btn-xl:hover,
@@ -135,15 +139,15 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
-    color: #fff;
-    background-color: #27b9e3;
-    border-color: #27b9e3
+  color: #fff;
+  background-color: #27b9e3;
+  border-color: #27b9e3;
 }
 
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
-    background-image: none
+  background-image: none;
 }
 
 .btn-xl.disabled,
@@ -161,1113 +165,1175 @@ fieldset[disabled] .btn-xl:active,
 .btn-xl.disabled.active,
 .btn-xl[disabled].active,
 fieldset[disabled] .btn-xl.active {
-    background-color: #27b9e3;
-    border-color: #27b9e3
+  background-color: #27b9e3;
+  border-color: #27b9e3;
 }
 
 .btn-xl .badge {
-    color: #27b9e3;
-    background-color: #fff
+  color: #27b9e3;
+  background-color: #fff;
 }
 
 .navbar-default {
-    background-color: #222;
-    border-color: transparent
+  background-color: #222;
+  border-color: transparent;
 }
 
 .navbar-default .navbar-brand {
-    color: #27b9e3;
-    font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+  color: #27b9e3;
+  font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E",
+    "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
 }
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    color: #27b9e3
+  color: #27b9e3;
 }
 
 .navbar-default .navbar-collapse {
-    border-color: rgba(255, 255, 255, .02)
+  border-color: rgba(255, 255, 255, 0.02);
 }
 
 .navbar-default .navbar-toggle {
-    background-color: #27b9e3;
-    border-color: #27b9e3
+  background-color: #27b9e3;
+  border-color: #27b9e3;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #fff
+  background-color: #fff;
 }
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: #27b9e3
+  background-color: #27b9e3;
 }
 
 .navbar-default .nav li a {
-    font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
-    text-transform: uppercase;
-    font-weight: 400;
-    letter-spacing: 1px;
-    color: #fff
+  font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E",
+    "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #fff;
 }
 
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
-    color: #27b9e3;
-    outline: 0
+  color: #27b9e3;
+  outline: 0;
 }
 
-.navbar-default .navbar-nav>.active>a {
-    border-radius: 0;
-    color: #fff;
-    background-color: #27b9e3
+.navbar-default .navbar-nav > .active > a {
+  border-radius: 0;
+  color: #fff;
+  background-color: #27b9e3;
 }
 
-.navbar-default .navbar-nav>.active>a:hover,
-.navbar-default .navbar-nav>.active>a:focus {
-    color: #fff;
-    background-color: #27b9e3
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #fff;
+  background-color: #27b9e3;
 }
 
-@media (min-width:320px) {
-    .navbar-default .navbar-brand {
-        font-size: 2em;
-        -webkit-transition: all .3s;
-        -moz-transition: all .3s;
-        transition: all .3s;
-        background: url("../img/logo_2.png") no-repeat left center;
-        background-size: contain;
-        width: 129px;
-        height: 51px;
-    }
+@media (min-width: 320px) {
+  .navbar-default .navbar-brand {
+    font-size: 2em;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    background: url("../img/logo_3.png") no-repeat left center;
+    background-size: contain;
+    width: 129px;
+    height: 51px;
+  }
 }
 
-@media (min-width:768px) {
-    .navbar-default {
-        background-color: transparent;
-        padding: 15px 0;
-        -webkit-transition: padding .3s;
-        -moz-transition: padding .3s;
-        transition: padding .3s;
-        border: 0;
-    }
+@media (min-width: 768px) {
+  .navbar-default {
+    background-color: transparent;
+    padding: 15px 0;
+    -webkit-transition: padding 0.3s;
+    -moz-transition: padding 0.3s;
+    transition: padding 0.3s;
+    border: 0;
+  }
 
-    .navbar-default .navbar-brand {
-        font-size: 2em;
-        -webkit-transition: all .3s;
-        -moz-transition: all .3s;
-        transition: all .3s;
-        background: url("../img/logo_2.png") no-repeat left center;
-        background-size: contain;
-        width: 259px;
-        height: 103px;
-    }
+  .navbar-default .navbar-brand {
+    font-size: 2em;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    background: url("../img/logo_3.png") no-repeat left center;
+    background-size: contain;
+    width: 259px;
+    height: 103px;
+  }
 
-    .navbar-default .navbar-nav>.active>a {
-        border-radius: 3px
-    }
+  .navbar-default .navbar-nav > .active > a {
+    border-radius: 3px;
+  }
 
-    .navbar-default.navbar-shrink {
-        background-color: rgba(0, 0, 0, 0.5);
-        padding: 10px 0
-    }
+  .navbar-default.navbar-shrink {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 0;
+  }
 
-    .navbar-default.navbar-shrink .navbar-brand {
-        font-size: 1.5em
-    }
+  .navbar-default.navbar-shrink .navbar-brand {
+    font-size: 1.5em;
+  }
 }
 
 video {
-    position: fixed;
-    right: 0;
-    top: 0;
-    z-index: 1;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 1;
 }
 
 .overlay {
-    z-index: 2;
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url("../img/dot.png");
+  z-index: 2;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/dot.png");
 }
 
 .inner {
-    color: #fff;
-    position: relative;
-    margin-top: 30%;
-    z-index: 3;
+  color: #fff;
+  position: relative;
+  margin-top: 30%;
+  z-index: 3;
 }
 
 .inner p {
-    font-size: 200%;
+  font-size: 200%;
 }
 
 .inner ul {
-    font-size: 200%;
+  font-size: 200%;
 }
 
 header {
-    background-color: #222;
-    background-repeat: none;
-    background-attachment: scroll;
-    background-position: center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    text-align: center;
-    color: #fff;
+  background-color: #222;
+  background-repeat: none;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
+  color: #fff;
 }
 
 header .intro-text {
-    padding-top: 100px;
-    padding-bottom: 50px
+  padding-top: 100px;
+  padding-bottom: 50px;
 }
 
 header .intro-text .intro-lead-in {
-    font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
-    font-style: italic;
-    font-size: 22px;
-    line-height: 22px;
-    margin-bottom: 25px
+  font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E",
+    "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+  font-style: italic;
+  font-size: 22px;
+  line-height: 22px;
+  margin-bottom: 25px;
 }
 
 header .intro-text .intro-heading {
-    font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 50px;
-    line-height: 50px;
-    margin-bottom: 25px
+  font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E",
+    "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 50px;
+  margin-bottom: 25px;
 }
 
-@media (min-width:768px) {
-    header .intro-text {
-        padding-top: 300px;
-        padding-bottom: 200px
-    }
+@media (min-width: 768px) {
+  header .intro-text {
+    padding-top: 300px;
+    padding-bottom: 200px;
+  }
 
-    header .intro-text .intro-lead-in {
-        font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
-        font-style: italic;
-        font-size: 40px;
-        line-height: 40px;
-        margin-bottom: 25px
-    }
+  header .intro-text .intro-lead-in {
+    font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E",
+      "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+    font-style: italic;
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 25px;
+  }
 
-    header .intro-text .intro-heading {
-        font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
-        text-transform: uppercase;
-        font-weight: 700;
-        font-size: 75px;
-        line-height: 75px;
-        margin-bottom: 50px
-    }
+  header .intro-text .intro-heading {
+    font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E",
+      "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 75px;
+    line-height: 75px;
+    margin-bottom: 50px;
+  }
 }
 
 section {
-    padding: 100px 0
+  padding: 100px 0;
 }
 
 section h2.section-heading {
-    font-size: 40px;
-    margin-top: 0;
-    margin-bottom: 15px
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 15px;
 }
 
 section h3.section-subheading {
-    font-size: 16px;
-    font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
-    text-transform: none;
-    font-style: italic;
-    font-weight: 400;
-    margin-bottom: 75px
+  font-size: 16px;
+  font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E",
+    "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+  text-transform: none;
+  font-style: italic;
+  font-weight: 400;
+  margin-bottom: 75px;
 }
 
-@media (min-width:768px) {
-    section {
-        padding: 150px 0;
-    }
+@media (min-width: 768px) {
+  section {
+    padding: 150px 0;
+  }
 }
 
 .service-heading {
-    margin: 15px 0;
-    text-transform: none
+  margin: 15px 0;
+  text-transform: none;
 }
 
 #Trainers .portfolio-item {
-    margin: 0 0 15px;
-    right: 0
+  margin: 0 0 15px;
+  right: 0;
 }
 
 #Trainers .portfolio-item .portfolio-link {
-    display: block;
-    position: relative;
-    max-width: 400px;
-    margin: 0 auto
+  display: block;
+  position: relative;
+  max-width: 400px;
+  margin: 0 auto;
 }
 
 #Trainers .portfolio-item .portfolio-link .portfolio-hover {
-    background: rgba(39, 185, 227, .9);
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    transition: all ease .5s;
-    -webkit-transition: all ease .5s;
-    -moz-transition: all ease .5s
+  background: rgba(39, 185, 227, 0.9);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all ease 0.5s;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
 }
 
 #Trainers .portfolio-item .portfolio-link .portfolio-hover:hover {
-    opacity: 1
+  opacity: 1;
 }
 
-#Trainers .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
-    position: absolute;
-    width: 100%;
-    height: 20px;
-    font-size: 20px;
-    text-align: center;
-    top: 50%;
-    margin-top: -12px;
-    color: #fff
+#Trainers
+  .portfolio-item
+  .portfolio-link
+  .portfolio-hover
+  .portfolio-hover-content {
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  font-size: 20px;
+  text-align: center;
+  top: 50%;
+  margin-top: -12px;
+  color: #fff;
 }
 
-#Trainers .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
-    margin-top: -12px
+#Trainers
+  .portfolio-item
+  .portfolio-link
+  .portfolio-hover
+  .portfolio-hover-content
+  i {
+  margin-top: -12px;
 }
 
-#Trainers .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
-#Trainers .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
-    margin: 0
+#Trainers
+  .portfolio-item
+  .portfolio-link
+  .portfolio-hover
+  .portfolio-hover-content
+  h3,
+#Trainers
+  .portfolio-item
+  .portfolio-link
+  .portfolio-hover
+  .portfolio-hover-content
+  h4 {
+  margin: 0;
 }
 
 #Trainers .portfolio-item .portfolio-caption {
-    max-width: 400px;
-    margin: 0 auto;
-    background-color: #fff;
-    text-align: center;
-    padding: 15px
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #fff;
+  text-align: center;
+  padding: 15px;
 }
 
 #Trainers .portfolio-item .portfolio-caption h4 {
-    text-transform: none;
-    margin: 0
+  text-transform: none;
+  margin: 0;
 }
 
 #Trainers .portfolio-item .portfolio-caption p {
-    font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
-    font-style: italic;
-    font-size: 16px;
-    margin: 0
+  font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E",
+    "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+  font-style: italic;
+  font-size: 16px;
+  margin: 0;
 }
 
 #Trainers * {
-    z-index: 2
+  z-index: 2;
 }
 
-@media (min-width:767px) {
-    #Trainers .portfolio-item {
-        margin: 0 0 30px
-    }
+@media (min-width: 767px) {
+  #Trainers .portfolio-item {
+    margin: 0 0 30px;
+  }
 }
 
 #AthleteSupport .portfolio-item {
-    margin: 0 0 15px;
-    right: 0
+  margin: 0 0 15px;
+  right: 0;
 }
 
 #AthleteSupport .portfolio-item .portfolio-link {
-    display: block;
-    position: relative;
-    max-width: 400px;
-    margin: 0 auto
+  display: block;
+  position: relative;
+  max-width: 400px;
+  margin: 0 auto;
 }
 
 #AthleteSupport .portfolio-item .portfolio-link .portfolio-hover {
-    background: rgba(39, 185, 227, .9);
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    transition: all ease .5s;
-    -webkit-transition: all ease .5s;
-    -moz-transition: all ease .5s
+  background: rgba(39, 185, 227, 0.9);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all ease 0.5s;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
 }
 
 #AthleteSupport .portfolio-item .portfolio-link .portfolio-hover:hover {
-    opacity: 1
+  opacity: 1;
 }
 
-#AthleteSupport .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
-    position: absolute;
-    width: 100%;
-    height: 20px;
-    font-size: 20px;
-    text-align: center;
-    top: 50%;
-    margin-top: -12px;
-    color: #fff
+#AthleteSupport
+  .portfolio-item
+  .portfolio-link
+  .portfolio-hover
+  .portfolio-hover-content {
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  font-size: 20px;
+  text-align: center;
+  top: 50%;
+  margin-top: -12px;
+  color: #fff;
 }
 
-#AthleteSupport .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
-    margin-top: -12px
+#AthleteSupport
+  .portfolio-item
+  .portfolio-link
+  .portfolio-hover
+  .portfolio-hover-content
+  i {
+  margin-top: -12px;
 }
 
-#AthleteSupport .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
-#AthleteSupport .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
-    margin: 0
+#AthleteSupport
+  .portfolio-item
+  .portfolio-link
+  .portfolio-hover
+  .portfolio-hover-content
+  h3,
+#AthleteSupport
+  .portfolio-item
+  .portfolio-link
+  .portfolio-hover
+  .portfolio-hover-content
+  h4 {
+  margin: 0;
 }
 
 #AthleteSupport .portfolio-item .portfolio-caption {
-    max-width: 400px;
-    margin: 0 auto;
-    background-color: #fff;
-    text-align: center;
-    padding: 15px
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #fff;
+  text-align: center;
+  padding: 15px;
 }
 
 #AthleteSupport .portfolio-item .portfolio-caption h4 {
-    text-transform: none;
-    margin: 0
+  text-transform: none;
+  margin: 0;
 }
 
 #AthleteSupport .portfolio-item .portfolio-caption p {
-    font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
-    font-style: italic;
-    font-size: 16px;
-    margin: 0
+  font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E",
+    "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+  font-style: italic;
+  font-size: 16px;
+  margin: 0;
 }
 
 #AthleteSupport * {
-    z-index: 2
+  z-index: 2;
 }
 
-@media (min-width:767px) {
-    #AthleteSupport .portfolio-item {
-        margin: 0 0 30px
-    }
+@media (min-width: 767px) {
+  #AthleteSupport .portfolio-item {
+    margin: 0 0 30px;
+  }
 }
 
 .timeline {
-    list-style: none;
-    padding: 0;
-    position: relative
+  list-style: none;
+  padding: 0;
+  position: relative;
 }
 
 .timeline:before {
-    top: 0;
-    bottom: 0;
-    position: absolute;
-    content: "";
-    width: 2px;
-    background-color: #f1f1f1;
-    left: 40px;
-    margin-left: -1.5px
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  content: "";
+  width: 2px;
+  background-color: #f1f1f1;
+  left: 40px;
+  margin-left: -1.5px;
 }
 
-.timeline>li {
-    margin-bottom: 50px;
-    position: relative;
-    min-height: 50px
+.timeline > li {
+  margin-bottom: 50px;
+  position: relative;
+  min-height: 50px;
 }
 
-.timeline>li:before,
-.timeline>li:after {
-    content: " ";
-    display: table
+.timeline > li:before,
+.timeline > li:after {
+  content: " ";
+  display: table;
 }
 
-.timeline>li:after {
-    clear: both
+.timeline > li:after {
+  clear: both;
 }
 
-.timeline>li .timeline-panel {
-    width: 100%;
-    float: right;
-    padding: 0 20px 0 100px;
-    position: relative;
-    text-align: left
+.timeline > li .timeline-panel {
+  width: 100%;
+  float: right;
+  padding: 0 20px 0 100px;
+  position: relative;
+  text-align: left;
 }
 
-.timeline>li .timeline-panel:before {
-    border-left-width: 0;
-    border-right-width: 15px;
-    left: -15px;
-    right: auto
+.timeline > li .timeline-panel:before {
+  border-left-width: 0;
+  border-right-width: 15px;
+  left: -15px;
+  right: auto;
 }
 
-.timeline>li .timeline-panel:after {
-    border-left-width: 0;
-    border-right-width: 14px;
-    left: -14px;
-    right: auto
+.timeline > li .timeline-panel:after {
+  border-left-width: 0;
+  border-right-width: 14px;
+  left: -14px;
+  right: auto;
 }
 
-.timeline>li .timeline-image {
-    left: 0;
-    margin-left: 0;
-    width: 80px;
-    height: 80px;
-    position: absolute;
-    z-index: 100;
-    background-color: #27b9e3;
-    color: #fff;
-    border-radius: 100%;
-    border: 7px solid #f1f1f1;
-    text-align: center
+.timeline > li .timeline-image {
+  left: 0;
+  margin-left: 0;
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  z-index: 100;
+  background-color: #27b9e3;
+  color: #fff;
+  border-radius: 100%;
+  border: 7px solid #f1f1f1;
+  text-align: center;
 }
 
-.timeline>li .timeline-image h4 {
-    font-size: 10px;
-    margin-top: 12px;
-    line-height: 14px
+.timeline > li .timeline-image h4 {
+  font-size: 10px;
+  margin-top: 12px;
+  line-height: 14px;
 }
 
-.timeline>li.timeline-inverted>.timeline-panel {
-    float: right;
-    text-align: left;
-    padding: 0 20px 0 100px
+.timeline > li.timeline-inverted > .timeline-panel {
+  float: right;
+  text-align: left;
+  padding: 0 20px 0 100px;
 }
 
-.timeline>li.timeline-inverted>.timeline-panel:before {
-    border-left-width: 0;
-    border-right-width: 15px;
-    left: -15px;
-    right: auto
+.timeline > li.timeline-inverted > .timeline-panel:before {
+  border-left-width: 0;
+  border-right-width: 15px;
+  left: -15px;
+  right: auto;
 }
 
-.timeline>li.timeline-inverted>.timeline-panel:after {
-    border-left-width: 0;
-    border-right-width: 14px;
-    left: -14px;
-    right: auto
+.timeline > li.timeline-inverted > .timeline-panel:after {
+  border-left-width: 0;
+  border-right-width: 14px;
+  left: -14px;
+  right: auto;
 }
 
-.timeline>li:last-child {
-    margin-bottom: 0
+.timeline > li:last-child {
+  margin-bottom: 0;
 }
 
 .timeline .timeline-heading h4 {
-    margin-top: 0;
-    color: inherit
+  margin-top: 0;
+  color: inherit;
 }
 
 .timeline .timeline-heading h4.subheading {
-    text-transform: none
+  text-transform: none;
 }
 
-.timeline .timeline-body>p,
-.timeline .timeline-body>ul {
-    margin-bottom: 0
+.timeline .timeline-body > p,
+.timeline .timeline-body > ul {
+  margin-bottom: 0;
 }
 
-@media (min-width:768px) {
-    .timeline:before {
-        left: 50%
-    }
+@media (min-width: 768px) {
+  .timeline:before {
+    left: 50%;
+  }
 
-    .timeline>li {
-        margin-bottom: 100px;
-        min-height: 100px
-    }
+  .timeline > li {
+    margin-bottom: 100px;
+    min-height: 100px;
+  }
 
-    .timeline>li .timeline-panel {
-        width: 41%;
-        float: left;
-        padding: 0 20px 20px 30px;
-        text-align: right
-    }
+  .timeline > li .timeline-panel {
+    width: 41%;
+    float: left;
+    padding: 0 20px 20px 30px;
+    text-align: right;
+  }
 
-    .timeline>li .timeline-image {
-        width: 100px;
-        height: 100px;
-        left: 50%;
-        margin-left: -50px
-    }
+  .timeline > li .timeline-image {
+    width: 100px;
+    height: 100px;
+    left: 50%;
+    margin-left: -50px;
+  }
 
-    .timeline>li .timeline-image h4 {
-        font-size: 13px;
-        margin-top: 16px;
-        line-height: 18px
-    }
+  .timeline > li .timeline-image h4 {
+    font-size: 13px;
+    margin-top: 16px;
+    line-height: 18px;
+  }
 
-    .timeline>li.timeline-inverted>.timeline-panel {
-        float: right;
-        text-align: left;
-        padding: 0 30px 20px 20px
-    }
+  .timeline > li.timeline-inverted > .timeline-panel {
+    float: right;
+    text-align: left;
+    padding: 0 30px 20px 20px;
+  }
 
-    section#ReserveContact .section-heading {
-        color: #fff
-    }
+  section#ReserveContact .section-heading {
+    color: #fff;
+  }
 
-    section#ReserveContact .form-group {
-        margin-bottom: 25px
-    }
+  section#ReserveContact .form-group {
+    margin-bottom: 25px;
+  }
 
-    section#ReserveContact .form-group input,
-    section#ReserveContact .form-group textarea {
-        padding: 20px
-    }
+  section#ReserveContact .form-group input,
+  section#ReserveContact .form-group textarea {
+    padding: 20px;
+  }
 
-    section#ReserveContact .form-group input.form-control {
-        height: auto
-    }
+  section#ReserveContact .form-group input.form-control {
+    height: auto;
+  }
 
-    section#ReserveContact .form-group textarea.form-control {
-        height: 236px
-    }
+  section#ReserveContact .form-group textarea.form-control {
+    height: 236px;
+  }
 
-    section#ReserveContact .form-control:focus {
-        border-color: #27B9E3;
-        box-shadow: none
-    }
+  section#ReserveContact .form-control:focus {
+    border-color: #27b9e3;
+    box-shadow: none;
+  }
 
-    section#ReserveContact::-webkit-input-placeholder {
-        font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
-        text-transform: uppercase;
-        font-weight: 700;
-        color: #bbb
-    }
+  section#ReserveContact::-webkit-input-placeholder {
+    font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E",
+      "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #bbb;
+  }
 
-    section#ReserveContact:-moz-placeholder {
-        font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
-        font-weight: 700;
-        color: #bbb
-    }
+  section#ReserveContact:-moz-placeholder {
+    font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E",
+      "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+    font-weight: 700;
+    color: #bbb;
+  }
 
-    section#ReserveContact::-moz-placeholder {
-        font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
-        text-transform: uppercase;
-        font-weight: 700;
-        color: #bbb
-    }
+  section#ReserveContact::-moz-placeholder {
+    font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E",
+      "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #bbb;
+  }
 
-    section#ReserveContact:-ms-input-placeholder {
-        font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
-        text-transform: uppercase;
-        font-weight: 700;
-        color: #bbb
-    }
+  section#ReserveContact:-ms-input-placeholder {
+    font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E",
+      "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #bbb;
+  }
 
-    section#ReserveContact .text-danger {
-        color: #e74c3c
-    }
+  section#ReserveContact .text-danger {
+    color: #e74c3c;
+  }
 }
 
-@media (min-width:992px) {
-    .timeline>li {
-        min-height: 150px
-    }
+@media (min-width: 992px) {
+  .timeline > li {
+    min-height: 150px;
+  }
 
-    .timeline>li .timeline-panel {
-        padding: 0 20px 20px
-    }
+  .timeline > li .timeline-panel {
+    padding: 0 20px 20px;
+  }
 
-    .timeline>li .timeline-image {
-        width: 150px;
-        height: 150px;
-        margin-left: -75px
-    }
+  .timeline > li .timeline-image {
+    width: 150px;
+    height: 150px;
+    margin-left: -75px;
+  }
 
-    .timeline>li .timeline-image h4 {
-        font-size: 18px;
-        margin-top: 30px;
-        line-height: 26px
-    }
+  .timeline > li .timeline-image h4 {
+    font-size: 18px;
+    margin-top: 30px;
+    line-height: 26px;
+  }
 
-    .timeline>li.timeline-inverted>.timeline-panel {
-        padding: 0 20px 20px
-    }
+  .timeline > li.timeline-inverted > .timeline-panel {
+    padding: 0 20px 20px;
+  }
 
-    section#ReserveContact {
-        background-color: #222;
-        background-image: url(../img/ReserveContact.jpg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
+  section#ReserveContact {
+    background-color: #222;
+    background-image: url(../img/ReserveContact.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
-    section#ReserveContact .section-heading {
-        color: #fff
-    }
+  section#ReserveContact .section-heading {
+    color: #fff;
+  }
 
-    section#ReserveContact .form-group {
-        margin-bottom: 25px
-    }
+  section#ReserveContact .form-group {
+    margin-bottom: 25px;
+  }
 
-    section#ReserveContact .form-group input,
-    section#ReserveContact .form-group textarea {
-        padding: 20px
-    }
+  section#ReserveContact .form-group input,
+  section#ReserveContact .form-group textarea {
+    padding: 20px;
+  }
 
-    section#ReserveContact .form-group input.form-control {
-        height: auto
-    }
+  section#ReserveContact .form-group input.form-control {
+    height: auto;
+  }
 
-    section#ReserveContact .form-group textarea.form-control {
-        height: 236px
-    }
+  section#ReserveContact .form-group textarea.form-control {
+    height: 236px;
+  }
 
-    section#ReserveContact .form-control:focus {
-        border-color: #27B9E3;
-        box-shadow: none
-    }
+  section#ReserveContact .form-control:focus {
+    border-color: #27b9e3;
+    box-shadow: none;
+  }
 
-    section#ReserveContact::-webkit-input-placeholder {
-        font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
-        text-transform: uppercase;
-        font-weight: 700;
-        color: #bbb
-    }
+  section#ReserveContact::-webkit-input-placeholder {
+    font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E",
+      "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #bbb;
+  }
 
-    section#ReserveContact:-moz-placeholder {
-        font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
-        font-weight: 700;
-        color: #bbb
-    }
+  section#ReserveContact:-moz-placeholder {
+    font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E",
+      "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+    font-weight: 700;
+    color: #bbb;
+  }
 
-    section#ReserveContact::-moz-placeholder {
-        font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
-        text-transform: uppercase;
-        font-weight: 700;
-        color: #bbb
-    }
+  section#ReserveContact::-moz-placeholder {
+    font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E",
+      "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #bbb;
+  }
 
-    section#ReserveContact:-ms-input-placeholder {
-        font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
-        text-transform: uppercase;
-        font-weight: 700;
-        color: #bbb
-    }
+  section#ReserveContact:-ms-input-placeholder {
+    font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E",
+      "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #bbb;
+  }
 
-    section#ReserveContact .text-danger {
-        color: #e74c3c
-    }
+  section#ReserveContact .text-danger {
+    color: #e74c3c;
+  }
 
-    section#Message {
-        background-color: #fff;
-        /*background-image: url(http://nucklepart.hippy.jp/20180421.jpg);*/
-        /* background-image: url(../img/20200510075303.JPEG); */
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
+  section#Message {
+    background-color: #fff;
+    /*background-image: url(http://nucklepart.hippy.jp/20180421.jpg);*/
+    /* background-image: url(../img/20200510075303.JPEG); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
-    section#Concept {
-        background-color: #f7f7f7;
-        /* background-image: url(../img/kamiyasan-1.jpg); */
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
+  section#Concept {
+    background-color: #f7f7f7;
+    /* background-image: url(../img/kamiyasan-1.jpg); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
-    section#Price {
-        background-color: #f7f7f7;
-    }
+  section#Price {
+    background-color: #f7f7f7;
+  }
 
-    section#Recruit {
-        background-color: #f7f7f7;
-    }
+  section#Recruit {
+    background-color: #f7f7f7;
+  }
 }
 
-@media (min-width:1200px) {
-    .timeline>li {
-        min-height: 170px
-    }
+@media (min-width: 1200px) {
+  .timeline > li {
+    min-height: 170px;
+  }
 
-    .timeline>li .timeline-panel {
-        padding: 0 20px 20px 100px
-    }
+  .timeline > li .timeline-panel {
+    padding: 0 20px 20px 100px;
+  }
 
-    .timeline>li .timeline-image {
-        width: 170px;
-        height: 170px;
-        margin-left: -85px
-    }
+  .timeline > li .timeline-image {
+    width: 170px;
+    height: 170px;
+    margin-left: -85px;
+  }
 
-    .timeline>li .timeline-image h4 {
-        margin-top: 40px
-    }
+  .timeline > li .timeline-image h4 {
+    margin-top: 40px;
+  }
 
-    .timeline>li.timeline-inverted>.timeline-panel {
-        padding: 0 100px 20px 20px
-    }
+  .timeline > li.timeline-inverted > .timeline-panel {
+    padding: 0 100px 20px 20px;
+  }
 
-    section#ReserveContact {
-        background-color: #222;
-        background-image: url(../img/ReserveContact.jpg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
+  section#ReserveContact {
+    background-color: #222;
+    background-image: url(../img/ReserveContact.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
-    section#ReserveContact .section-heading {
-        color: #fff
-    }
+  section#ReserveContact .section-heading {
+    color: #fff;
+  }
 
-    section#ReserveContact .form-group {
-        margin-bottom: 25px
-    }
+  section#ReserveContact .form-group {
+    margin-bottom: 25px;
+  }
 
-    section#ReserveContact .form-group input,
-    section#ReserveContact .form-group textarea {
-        padding: 20px
-    }
+  section#ReserveContact .form-group input,
+  section#ReserveContact .form-group textarea {
+    padding: 20px;
+  }
 
-    section#ReserveContact .form-group input.form-control {
-        height: auto
-    }
+  section#ReserveContact .form-group input.form-control {
+    height: auto;
+  }
 
-    section#ReserveContact .form-group textarea.form-control {
-        height: 236px
-    }
+  section#ReserveContact .form-group textarea.form-control {
+    height: 236px;
+  }
 
-    section#ReserveContact .form-control:focus {
-        border-color: #27B9E3;
-        box-shadow: none
-    }
+  section#ReserveContact .form-control:focus {
+    border-color: #27b9e3;
+    box-shadow: none;
+  }
 
-    section#ReserveContact::-webkit-input-placeholder {
-        font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
-        text-transform: uppercase;
-        font-weight: 700;
-        color: #bbb
-    }
+  section#ReserveContact::-webkit-input-placeholder {
+    font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E",
+      "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #bbb;
+  }
 
-    section#ReserveContact:-moz-placeholder {
-        font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
-        font-weight: 700;
-        color: #bbb
-    }
+  section#ReserveContact:-moz-placeholder {
+    font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E",
+      "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+    font-weight: 700;
+    color: #bbb;
+  }
 
-    section#ReserveContact::-moz-placeholder {
-        font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
-        text-transform: uppercase;
-        font-weight: 700;
-        color: #bbb
-    }
+  section#ReserveContact::-moz-placeholder {
+    font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E",
+      "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #bbb;
+  }
 
-    section#ReserveContact:-ms-input-placeholder {
-        font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
-        text-transform: uppercase;
-        font-weight: 700;
-        color: #bbb
-    }
+  section#ReserveContact:-ms-input-placeholder {
+    font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E",
+      "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #bbb;
+  }
 
-    section#ReserveContact .text-danger {
-        color: #e74c3c
-    }
+  section#ReserveContact .text-danger {
+    color: #e74c3c;
+  }
 
-    section#Message {
-        background-color: #fff;
-        /*background-image: url(http://nucklepart.hippy.jp/20180421.jpg);*/
-        /*background-image: url(http://nucklepart.hippy.jp/20190515.jpg);*/
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
+  section#Message {
+    background-color: #fff;
+    /*background-image: url(http://nucklepart.hippy.jp/20180421.jpg);*/
+    /*background-image: url(http://nucklepart.hippy.jp/20190515.jpg);*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
-    section#Concept {
-        background-color: #f7f7f7;
-        /* background-image: url(../img/kamiyasan-1.jpg); */
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
+  section#Concept {
+    background-color: #f7f7f7;
+    /* background-image: url(../img/kamiyasan-1.jpg); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
-    section#Price {
-        background-color: #f7f7f7;
-    }
+  section#Price {
+    background-color: #f7f7f7;
+  }
 
-    section#Recruit {
-        background-color: #fff;
-    }
+  section#Recruit {
+    background-color: #fff;
+  }
 }
 
 section#Archive {
-    background-color: #222;
-    color: #f7f7f7;
+  background-color: #222;
+  color: #f7f7f7;
 }
 
 section#page {
-    background-color: #222;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: #f7f7f7;
+  background-color: #222;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #f7f7f7;
 }
 
 .team-member {
-    text-align: center;
-    margin-bottom: 50px
+  text-align: center;
+  margin-bottom: 50px;
 }
 
 .team-member img {
-    margin: 0 auto;
-    border: 7px solid #fff
+  margin: 0 auto;
+  border: 7px solid #fff;
 }
 
 .team-member h4 {
-    margin-top: 25px;
-    margin-bottom: 0;
-    text-transform: none
+  margin-top: 25px;
+  margin-bottom: 0;
+  text-transform: none;
 }
 
 .team-member p {
-    margin-top: 0
+  margin-top: 0;
 }
 
 aside.Social img {
-    margin: 50px auto
+  margin: 50px auto;
 }
 
 footer {
-    padding: 10px 0;
-    text-align: center;
+  padding: 10px 0;
+  text-align: center;
 }
 
 footer span.copyright {
-    line-height: 40px;
-    font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
-    text-transform: uppercase;
-    text-transform: none
+  line-height: 40px;
+  font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E",
+    "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+  text-transform: uppercase;
+  text-transform: none;
 }
 
 footer ul.quicklinks {
-    margin-bottom: 0;
-    line-height: 40px;
-    font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
-    text-transform: uppercase;
-    text-transform: none
+  margin-bottom: 0;
+  line-height: 40px;
+  font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E",
+    "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+  text-transform: uppercase;
+  text-transform: none;
 }
 
 ul.social-buttons {
-    margin-bottom: 0
+  margin-bottom: 0;
 }
 
 ul.social-buttons li a {
-    display: block;
-    background-color: #222;
-    height: 40px;
-    width: 40px;
-    border-radius: 100%;
-    font-size: 20px;
-    line-height: 40px;
-    color: #fff;
-    outline: 0;
-    -webkit-transition: all .3s;
-    -moz-transition: all .3s;
-    transition: all .3s
+  display: block;
+  background-color: #222;
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  font-size: 20px;
+  line-height: 40px;
+  color: #fff;
+  outline: 0;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-    background-color: #27b9e3
+  background-color: #27b9e3;
 }
 
 .btn:focus,
 .btn:active,
 .btn.active,
 .btn:active:focus {
-    outline: 0
+  outline: 0;
 }
 
 .portfolio-modal .modal-content {
-    border-radius: 0;
-    background-clip: border-box;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    border: 0;
-    min-height: 100%;
-    padding: 100px 0;
-    text-align: center
+  border-radius: 0;
+  background-clip: border-box;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: 0;
+  min-height: 100%;
+  padding: 100px 0;
+  text-align: center;
 }
 
 .portfolio-modal .modal-content h2 {
-    margin-bottom: 15px;
-    font-size: 3em
+  margin-bottom: 15px;
+  font-size: 3em;
 }
 
 .portfolio-modal .modal-content p {
-    margin-bottom: 30px
+  margin-bottom: 30px;
 }
 
 .portfolio-modal .modal-content p.item-intro {
-    margin: 20px 0 30px;
-    font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
-    font-style: italic;
-    font-size: 16px
+  margin: 20px 0 30px;
+  font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E",
+    "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+  font-style: italic;
+  font-size: 16px;
 }
 
 .portfolio-modal .modal-content ul.list-inline {
-    margin-bottom: 30px;
-    margin-top: 0
+  margin-bottom: 30px;
+  margin-top: 0;
 }
 
 .portfolio-modal .modal-content img {
-    margin-bottom: 30px
+  margin-bottom: 30px;
 }
 
 .portfolio-modal .close-modal {
-    position: absolute;
-    width: 75px;
-    height: 75px;
-    background-color: transparent;
-    top: 25px;
-    right: 25px;
-    cursor: pointer
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  background-color: transparent;
+  top: 25px;
+  right: 25px;
+  cursor: pointer;
 }
 
 .portfolio-modal .close-modal:hover {
-    opacity: .3
+  opacity: 0.3;
 }
 
 .portfolio-modal .close-modal .lr {
-    height: 75px;
-    width: 1px;
-    margin-left: 35px;
-    background-color: #222;
-    transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-    z-index: 1051
+  height: 75px;
+  width: 1px;
+  margin-left: 35px;
+  background-color: #222;
+  transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  z-index: 1051;
 }
 
 .portfolio-modal .close-modal .lr .rl {
-    height: 75px;
-    width: 1px;
-    background-color: #222;
-    transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    -webkit-transform: rotate(90deg);
-    z-index: 1052
+  height: 75px;
+  width: 1px;
+  background-color: #222;
+  transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  z-index: 1052;
 }
 
 .portfolio-modal .modal-backdrop {
-    opacity: 0;
-    display: none
+  opacity: 0;
+  display: none;
 }
 
 ::-moz-selection {
-    text-shadow: none;
-    background: #27b9e3
+  text-shadow: none;
+  background: #27b9e3;
 }
 
 ::selection {
-    text-shadow: none;
-    background: #27b9e3
+  text-shadow: none;
+  background: #27b9e3;
 }
 
 img::selection {
-    background: 0 0
+  background: 0 0;
 }
 
 img::-moz-selection {
-    background: 0 0
+  background: 0 0;
 }
 
 body {
-    webkit-tap-highlight-color: #27b9e3
+  webkit-tap-highlight-color: #27b9e3;
 }
 
 .spacer-xs {
-    margin: 10px 0
+  margin: 10px 0;
 }
 
 .spacer-s {
-    margin: 20px 0
+  margin: 20px 0;
 }
 
 .spacer-m {
-    margin: 30px 0
+  margin: 30px 0;
 }
 
 .spacer-l {
-    margin: 40px 0
+  margin: 40px 0;
 }
 
 .spacer-xl {
-    margin: 50px 0
+  margin: 50px 0;
 }
 
 .spacer_xs {
-    padding: 10px;
+  padding: 10px;
 }
 
 .spacer_s {
-    padding: 20px;
+  padding: 20px;
 }
 
 .spacer_m {
-    padding: 30px;
+  padding: 30px;
 }
 
 .spacer_l {
-    padding: 40px;
+  padding: 40px;
 }
 
 .spacer_xl {
-    padding: 50px;
+  padding: 50px;
 }
 
 .center-nav {
-    margin: 0 auto;
-    display: table;
-    table-layout: fixed;
-    float: none;
+  margin: 0 auto;
+  display: table;
+  table-layout: fixed;
+  float: none;
 }
 
 .ggmap {
-    position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 30px;
-    height: 0;
-    overflow: hidden;
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
 }
 
 .ggmap iframe,
 .ggmap object,
 .ggmap embed {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .logo {
-    display: block;
-    width: 260px;
-    height: 103px;
+  display: block;
+  width: 260px;
+  height: 103px;
 }
 
 .small {
-    font-size: 150%;
+  font-size: 150%;
 }
 
 #CompanyOverView a {
-    color: #000000;
+  color: #000000;
 }
 
 #Blog a {
-    color: #222;
-    text-decoration: none;
+  color: #222;
+  text-decoration: none;
 }
 
 .bg-tpblack {
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
 }
 
 .table-noborder {
-    border-top: 0px !important;
-    border-bottom: 0px !important;
+  border-top: 0px !important;
+  border-bottom: 0px !important;
 }
