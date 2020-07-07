@@ -123,8 +123,8 @@ fieldset[disabled] .btn-primary.active {
 
 .btn-xl {
   color: #fff;
-  background-color: #27b9e3;
-  border-color: #27b9e3;
+  background-color: #FF6C00;
+  border-color: #FF6C00;
   font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E",
     "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
   text-transform: uppercase;
@@ -140,8 +140,8 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
   color: #fff;
-  background-color: #27b9e3;
-  border-color: #27b9e3;
+  background-color: #FF6C00;
+  border-color: #FF6C00;
 }
 
 .btn-xl:active,
@@ -165,12 +165,12 @@ fieldset[disabled] .btn-xl:active,
 .btn-xl.disabled.active,
 .btn-xl[disabled].active,
 fieldset[disabled] .btn-xl.active {
-  background-color: #27b9e3;
-  border-color: #27b9e3;
+  background-color: #FF6C00;
+  border-color: #FF6C00;
 }
 
 .btn-xl .badge {
-  color: #27b9e3;
+  color: #FF6C00;
   background-color: #fff;
 }
 
@@ -812,7 +812,7 @@ section h3.section-subheading {
   }
 
   section#ReserveContact .text-danger {
-    color: #e74c3c;
+    color: #FF6C00;
   }
 }
 
@@ -907,7 +907,7 @@ section h3.section-subheading {
   }
 
   section#ReserveContact .text-danger {
-    color: #e74c3c;
+    color: #FF6C00;
   }
 
   section#Message {
@@ -1025,7 +1025,7 @@ section h3.section-subheading {
   }
 
   section#ReserveContact .text-danger {
-    color: #e74c3c;
+    color: #FF6C00;
   }
 
   section#Message {

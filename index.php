@@ -266,6 +266,7 @@
                     <ul class="list-unstyled spacer-s">
                         <small>
                             <li>株式会社DL CHASE jAPAN 代表取締役</li>
+                            <li>京都大学石原研究室共同研究者</li>
                             <li>医科学研究所 主任研究員</li>
                             <li>早稲田大学大学院スポーツ科学研究科修了</li>
                             <li>アメリカスポーツ医学会 運動生理学士</li>
