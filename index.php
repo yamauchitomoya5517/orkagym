@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="ORKA Health & Exercise｜ORKA Health & Exerciseは研究所とトレーニングジムを一体化させた運動療法施設です。
+    <meta name="description" content="ORKA｜ORKAは研究所とトレーニングジムを一体化させた運動療法施設です。
 全ての生体反応を定量化することで、個々の特徴を解明し、予防医学的見地から明確なプロトコルを提供致します。">
     <meta name="author" content="">
     <title>
@@ -41,7 +41,7 @@
 <header>
     <div class="embed-responsive embed-responsive-16by9 hidden-xs">
         <div class="inner">
-            <p class="hidden-xs">ORKA Health & Exercise
+            <p class="hidden-xs">ORKA
                 <span class="text-danger">OFFICIAL</span> WEB SITE.</p>
             <ul class="list-inline">
                 <li>
@@ -65,7 +65,7 @@
 </header>
 <section class="visible-xs text-center bg-darkest-gray"
        style="background: url('http://orkagym.jp/wp-content/uploads/2020/07/hero_sp.gif') no-repeat;background-size:100% 100%;">
-       <h3 class="vivsible-xs">ORKA Health & Exercise</h3>
+       <h3 class="vivsible-xs">ORKA</h3>
                 <p><span class="text-danger">OFFICIAL</span> WEB SITE.</p>
                 <ul class="list-inline">
                 <li>
