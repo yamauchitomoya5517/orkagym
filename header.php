@@ -1,4 +1,4 @@
-<nav class="navbar navbar-default" style="background-color: rgba(0,0,0,0.5);">
+<nav class="navbar navbar-default" style="background-color: rgba(0,0,0,0.5);margin-bottom:0;">
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header page-scroll">
