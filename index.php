@@ -9,7 +9,7 @@
     全ての生体反応を定量化することで、個々の特徴を解明し、予防医学的見地から明確なプロトコルを提供致します。">
     <meta name="author" content="">
     <title>
-        <?php bloginfo('name'); ?> |
+        <?php bloginfo('name'); ?> 
         <?php bloginfo('description'); ?>
     </title>
     <!-- Bootstrap Core CSS -->
