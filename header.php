@@ -19,27 +19,30 @@
                     <a href="#page-top"></a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="<?php echo home_url('/'); ?>#Blog"><small>NEWS</small><br>ニュース</a>
+                    <a class="page-scroll" href="<?php echo home_url('/'); ?>#news"><small>NEWS</small><br>ニュース</a>
                 </li>
-                <li><a class="page-scroll" href="<?php echo home_url('/'); ?>#ForCompanies"><small>MEDIA</small><br>メディア</a>
+                <li><a class="page-scroll" href="<?php echo home_url('/'); ?>#media"><small>MEDIA</small><br>メディア</a>
                     </li>
                 <li>
-                    <a class="page-scroll" href="<?php echo home_url('/'); ?>#Message"><small>Mission & Vision</small><br>ミッション&ビジョン</a>
+                    <a class="page-scroll" href="<?php echo home_url('/'); ?>#missionvision"><small>MISSION & VISION</small><br>ミッション&ビジョン</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="<?php echo home_url('/'); ?>#Concept"><small>CONCEPT</small><br>コンセプト</a>
+                    <a class="page-scroll" href="<?php echo home_url('/'); ?>#concept"><small>CONCEPT</small><br>コンセプト</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="<?php echo home_url('/'); ?>#PersonalTraining"><small>EXERCISE THERAPY</small><br>運動療法</a>
+                    <a class="page-scroll" href="<?php echo home_url('/'); ?>#exercisetherapy"><small>EXERCISE THERAPY</small><br>運動療法</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="<?php echo home_url('/'); ?>#Trainers"><small>RESEARCHER</small><br>研究者</a>
+                    <a class="page-scroll" href="<?php echo home_url('/'); ?>#researcher"><small>RESEARCHER</small><br>研究者</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="<?php echo home_url('/'); ?>#Facilities"><small>FACILITY</small><br>施設案内</a>
+                    <a class="page-scroll" href="<?php echo home_url('/'); ?>#facilities"><small>FACILITY</small><br>施設案内</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="<?php echo home_url('/'); ?>#Price"><small>PRICE</small><br>料金案内</a>
+                    <a class="page-scroll" href="<?php echo home_url('/'); ?>#price"><small>PRICE</small><br>料金案内</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="<?php echo home_url('/'); ?>#researchpaper"><small>RESEARCH PAPER</small><br>研究論文</a>
                 </li>
             </ul>
         </div>

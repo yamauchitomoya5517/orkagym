@@ -96,7 +96,7 @@
                     </p>
                 </section> -->
                 <!-- Blog Section -->
-                <section id="Blog" class="bg-light-gray">
+                <section id="news" class="bg-light-gray">
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-12 text-center">
@@ -136,8 +136,230 @@
             </ul>
         </div>
     </section>
+    <!-- Media -->
+               <section id="media">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 text-center">
+                            <h1 class="section-heading">MEDIA</h1>
+                            <h3 class="section-subheading text-muted">メディア</h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <ul class="slick01">
+                                <li style="margin-right:15px;">
+                                    <a href="#" data-toggle="modal" data-target="#Modal_16">
+                                        <img src="<?php bloginfo('template_url'); ?>/img/media/1.jpg" class="img-responsive"
+                                        alt="media_1">
+                                    </a>
+                                </li>
+                                <li style="margin-right:15px;">
+                                    <a href="#" data-toggle="modal" data-target="#Modal_17">
+                                        <img src="<?php bloginfo('template_url'); ?>/img/media/2.jpg" class="img-responsive"
+                                        alt="media_2">
+                                    </a>
+                                </li>
+                                <li style="margin-right:15px;">
+                                    <a href="#" data-toggle="modal" data-target="#Modal_18">
+                                        <img src="<?php bloginfo('template_url'); ?>/img/media/3.jpg" class="img-responsive"
+                                        alt="media_3">
+                                    </a>
+                                </li>
+                                <li style="margin-right:15px;">
+                                    <a href="#" data-toggle="modal" data-target="#Modal_19">
+                                        <img src="<?php bloginfo('template_url'); ?>/img/media/4.jpg" class="img-responsive"
+                                        alt="media_4">
+                                    </a>
+                                </li>
+                                <li style="margin-right:15px;">
+                                    <a href="#" data-toggle="modal" data-target="#Modal_20">
+                                        <img src="<?php bloginfo('template_url'); ?>/img/media/5.jpg" class="img-responsive"
+                                        alt="media_5">
+                                    </a>
+                                </li>
+                                <li style="margin-right:15px;">
+                                    <a href="#" data-toggle="modal" data-target="#Modal_21">
+                                        <img src="<?php bloginfo('template_url'); ?>/img/media/6.jpg" class="img-responsive"
+                                        alt="media_6">
+                                    </a>
+                                </li>
+                                <li style="margin-right:15px;">
+                                    <a href="#" data-toggle="modal" data-target="#Modal_22">
+                                        <img src="<?php bloginfo('template_url'); ?>/img/media/7.jpg" class="img-responsive"
+                                        alt="media_7">
+                                    </a>
+                                </li>
+                                <li style="margin-right:15px;">
+                                    <a href="#" data-toggle="modal" data-target="#Modal_23">
+                                        <img src="<?php bloginfo('template_url'); ?>/img/media/8.jpg" class="img-responsive"
+                                        alt="media_8">
+                                    </a>
+                                </li>
+                                <li style="margin-right:15px;">
+                                    <a href="#" data-toggle="modal" data-target="#Modal_24">
+                                        <img src="<?php bloginfo('template_url'); ?>/img/media/9.jpg" class="img-responsive"
+                                        alt="media_9">
+                                    </a>
+                                </li>
+                                <li style="margin-right:15px;">
+                                    <a href="#" data-toggle="modal" data-target="#Modal_25">
+                                        <img src="<?php bloginfo('template_url'); ?>/img/media/10.png" class="img-responsive"
+                                        alt="media_10">
+                                    </a>
+                                </li>
+                                <li style="margin-right:15px;">
+                                    <a href="#" data-toggle="modal" data-target="#Modal_26">
+                                        <img src="<?php bloginfo('template_url'); ?>/img/media/11.jpg" class="img-responsive"
+                                        alt="media_11">
+                                    </a>
+                                </li>
+                                <li style="margin-right:15px;">
+                                    <a href="#" data-toggle="modal" data-target="#Modal_27">
+                                        <img src="<?php bloginfo('template_url'); ?>/img/media/12.jpg" class="img-responsive"
+                                        alt="media_12">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- Media モーダル -->
+                        <div class="modal fade" id="Modal_16" tabindex="-1">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-body">
+                                        <img src="<?php bloginfo('template_url'); ?>/img/media/1.jpg"
+                                        class="img-responsive" alt="media_1">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal fade" id="Modal_17" tabindex="-1">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-body">
+                                        <img src="<?php bloginfo('template_url'); ?>/img/media/2.jpg"
+                                        class="img-responsive" alt="media_2">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal fade" id="Modal_18" tabindex="-1">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-body">
+                                        <img src="<?php bloginfo('template_url'); ?>/img/media/3.jpg"
+                                        class="img-responsive" alt="media_3">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal fade" id="Modal_19" tabindex="-1">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-body">
+                                        <img src="<?php bloginfo('template_url'); ?>/img/media/4.jpg"
+                                        class="img-responsive" alt="media_4">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal fade" id="Modal_20" tabindex="-1">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-body">
+                                        <img src="<?php bloginfo('template_url'); ?>/img/media/5.jpg"
+                                        class="img-responsive" alt="media_5">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal fade" id="Modal_21" tabindex="-1">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-body">
+                                        <img src="<?php bloginfo('template_url'); ?>/img/media/6.jpg"
+                                        class="img-responsive" alt="media_6">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal fade" id="Modal_22" tabindex="-1">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-body">
+                                        <img src="<?php bloginfo('template_url'); ?>/img/media/7.jpg"
+                                        class="img-responsive" alt="media_7">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal fade" id="Modal_23" tabindex="-1">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-body">
+                                        <img src="<?php bloginfo('template_url'); ?>/img/media/8.jpg"
+                                        class="img-responsive" alt="media_8">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal fade" id="Modal_24" tabindex="-1">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-body">
+                                        <img src="<?php bloginfo('template_url'); ?>/img/media/9.jpg"
+                                        class="img-responsive" alt="media_9">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal fade" id="Modal_25" tabindex="-1">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-body">
+                                        <img src="<?php bloginfo('template_url'); ?>/img/media/10.png"
+                                        class="img-responsive" alt="media_10">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal fade" id="Modal_26" tabindex="-1">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-body">
+                                        <img src="<?php bloginfo('template_url'); ?>/img/media/11.jpg"
+                                        class="img-responsive" alt="media_11">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal fade" id="Modal_27" tabindex="-1">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-body">
+                                        <img src="<?php bloginfo('template_url'); ?>/img/media/12.jpg"
+                                        class="img-responsive" alt="media_12">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal fade" id="Modal_28" tabindex="-1">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-body">
+                                        <div class="embed-responsive embed-responsive-16by9">
+                                            <iframe class="embed-responsive-item" src="<?php bloginfo('template_url'); ?>/pdf/臨床免疫.pdf"></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
     <!-- Message Section -->
-    <section id="Message" style="padding:200px 0;">
+    <section id="missionvision" style="padding:200px 0;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -188,7 +410,7 @@
         </div>
     </section>
     <!-- Concept Section -->
-    <section id="Concept" class="bg-light-gray" style="padding:200px 0;">
+    <section id="concept" class="bg-light-gray" style="padding:200px 0;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -237,7 +459,7 @@
     </div>
 </section>
 <!-- PersonalTraining Section -->
-<section id="PersonalTraining">
+<section id="exercisetherapy">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
@@ -260,7 +482,7 @@
         </div>
     </section>
     <!-- Trainers Section -->
-    <section id="Trainers" class="bg-light-gray">
+    <section id="researcher" class="bg-light-gray">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -296,7 +518,7 @@
             </div>
         </section>
         <!-- Facilities Section -->
-        <section id="Facilities">
+        <section id="facilities">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
@@ -559,7 +781,7 @@
                 </div>
             </section>
             <!-- Price Section -->
-            <section id="Price">
+            <section id="price">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12 text-center">
@@ -574,230 +796,8 @@
                        </div>
                    </div>
                </section>
-               <!-- ForCompanies Section -->
-               <section id="ForCompanies">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12 text-center">
-                            <h1 class="section-heading">MEDIA</h1>
-                            <h3 class="section-subheading text-muted">メディア</h3>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <ul class="slick01">
-                                <li style="margin-right:15px;">
-                                    <a href="#" data-toggle="modal" data-target="#Modal_16">
-                                        <img src="<?php bloginfo('template_url'); ?>/img/media/1.jpg" class="img-responsive"
-                                        alt="media_1">
-                                    </a>
-                                </li>
-                                <li style="margin-right:15px;">
-                                    <a href="#" data-toggle="modal" data-target="#Modal_17">
-                                        <img src="<?php bloginfo('template_url'); ?>/img/media/2.jpg" class="img-responsive"
-                                        alt="media_2">
-                                    </a>
-                                </li>
-                                <li style="margin-right:15px;">
-                                    <a href="#" data-toggle="modal" data-target="#Modal_18">
-                                        <img src="<?php bloginfo('template_url'); ?>/img/media/3.jpg" class="img-responsive"
-                                        alt="media_3">
-                                    </a>
-                                </li>
-                                <li style="margin-right:15px;">
-                                    <a href="#" data-toggle="modal" data-target="#Modal_19">
-                                        <img src="<?php bloginfo('template_url'); ?>/img/media/4.jpg" class="img-responsive"
-                                        alt="media_4">
-                                    </a>
-                                </li>
-                                <li style="margin-right:15px;">
-                                    <a href="#" data-toggle="modal" data-target="#Modal_20">
-                                        <img src="<?php bloginfo('template_url'); ?>/img/media/5.jpg" class="img-responsive"
-                                        alt="media_5">
-                                    </a>
-                                </li>
-                                <li style="margin-right:15px;">
-                                    <a href="#" data-toggle="modal" data-target="#Modal_21">
-                                        <img src="<?php bloginfo('template_url'); ?>/img/media/6.jpg" class="img-responsive"
-                                        alt="media_6">
-                                    </a>
-                                </li>
-                                <li style="margin-right:15px;">
-                                    <a href="#" data-toggle="modal" data-target="#Modal_22">
-                                        <img src="<?php bloginfo('template_url'); ?>/img/media/7.jpg" class="img-responsive"
-                                        alt="media_7">
-                                    </a>
-                                </li>
-                                <li style="margin-right:15px;">
-                                    <a href="#" data-toggle="modal" data-target="#Modal_23">
-                                        <img src="<?php bloginfo('template_url'); ?>/img/media/8.jpg" class="img-responsive"
-                                        alt="media_8">
-                                    </a>
-                                </li>
-                                <li style="margin-right:15px;">
-                                    <a href="#" data-toggle="modal" data-target="#Modal_24">
-                                        <img src="<?php bloginfo('template_url'); ?>/img/media/9.jpg" class="img-responsive"
-                                        alt="media_9">
-                                    </a>
-                                </li>
-                                <li style="margin-right:15px;">
-                                    <a href="#" data-toggle="modal" data-target="#Modal_25">
-                                        <img src="<?php bloginfo('template_url'); ?>/img/media/10.png" class="img-responsive"
-                                        alt="media_10">
-                                    </a>
-                                </li>
-                                <li style="margin-right:15px;">
-                                    <a href="#" data-toggle="modal" data-target="#Modal_26">
-                                        <img src="<?php bloginfo('template_url'); ?>/img/media/11.jpg" class="img-responsive"
-                                        alt="media_11">
-                                    </a>
-                                </li>
-                                <li style="margin-right:15px;">
-                                    <a href="#" data-toggle="modal" data-target="#Modal_27">
-                                        <img src="<?php bloginfo('template_url'); ?>/img/media/12.jpg" class="img-responsive"
-                                        alt="media_12">
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-
-                        <!-- Media モーダル -->
-                        <div class="modal fade" id="Modal_16" tabindex="-1">
-                            <div class="modal-dialog modal-lg">
-                                <div class="modal-content">
-                                    <div class="modal-body">
-                                        <img src="<?php bloginfo('template_url'); ?>/img/media/1.jpg"
-                                        class="img-responsive" alt="media_1">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="modal fade" id="Modal_17" tabindex="-1">
-                            <div class="modal-dialog modal-lg">
-                                <div class="modal-content">
-                                    <div class="modal-body">
-                                        <img src="<?php bloginfo('template_url'); ?>/img/media/2.jpg"
-                                        class="img-responsive" alt="media_2">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="modal fade" id="Modal_18" tabindex="-1">
-                            <div class="modal-dialog modal-lg">
-                                <div class="modal-content">
-                                    <div class="modal-body">
-                                        <img src="<?php bloginfo('template_url'); ?>/img/media/3.jpg"
-                                        class="img-responsive" alt="media_3">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="modal fade" id="Modal_19" tabindex="-1">
-                            <div class="modal-dialog modal-lg">
-                                <div class="modal-content">
-                                    <div class="modal-body">
-                                        <img src="<?php bloginfo('template_url'); ?>/img/media/4.jpg"
-                                        class="img-responsive" alt="media_4">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="modal fade" id="Modal_20" tabindex="-1">
-                            <div class="modal-dialog modal-lg">
-                                <div class="modal-content">
-                                    <div class="modal-body">
-                                        <img src="<?php bloginfo('template_url'); ?>/img/media/5.jpg"
-                                        class="img-responsive" alt="media_5">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="modal fade" id="Modal_21" tabindex="-1">
-                            <div class="modal-dialog modal-lg">
-                                <div class="modal-content">
-                                    <div class="modal-body">
-                                        <img src="<?php bloginfo('template_url'); ?>/img/media/6.jpg"
-                                        class="img-responsive" alt="media_6">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="modal fade" id="Modal_22" tabindex="-1">
-                            <div class="modal-dialog modal-lg">
-                                <div class="modal-content">
-                                    <div class="modal-body">
-                                        <img src="<?php bloginfo('template_url'); ?>/img/media/7.jpg"
-                                        class="img-responsive" alt="media_7">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="modal fade" id="Modal_23" tabindex="-1">
-                            <div class="modal-dialog modal-lg">
-                                <div class="modal-content">
-                                    <div class="modal-body">
-                                        <img src="<?php bloginfo('template_url'); ?>/img/media/8.jpg"
-                                        class="img-responsive" alt="media_8">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="modal fade" id="Modal_24" tabindex="-1">
-                            <div class="modal-dialog modal-lg">
-                                <div class="modal-content">
-                                    <div class="modal-body">
-                                        <img src="<?php bloginfo('template_url'); ?>/img/media/9.jpg"
-                                        class="img-responsive" alt="media_9">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="modal fade" id="Modal_25" tabindex="-1">
-                            <div class="modal-dialog modal-lg">
-                                <div class="modal-content">
-                                    <div class="modal-body">
-                                        <img src="<?php bloginfo('template_url'); ?>/img/media/10.png"
-                                        class="img-responsive" alt="media_10">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="modal fade" id="Modal_26" tabindex="-1">
-                            <div class="modal-dialog modal-lg">
-                                <div class="modal-content">
-                                    <div class="modal-body">
-                                        <img src="<?php bloginfo('template_url'); ?>/img/media/11.jpg"
-                                        class="img-responsive" alt="media_11">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="modal fade" id="Modal_27" tabindex="-1">
-                            <div class="modal-dialog modal-lg">
-                                <div class="modal-content">
-                                    <div class="modal-body">
-                                        <img src="<?php bloginfo('template_url'); ?>/img/media/12.jpg"
-                                        class="img-responsive" alt="media_12">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="modal fade" id="Modal_28" tabindex="-1">
-                            <div class="modal-dialog modal-lg">
-                                <div class="modal-content">
-                                    <div class="modal-body">
-                                        <div class="embed-responsive embed-responsive-16by9">
-                                            <iframe class="embed-responsive-item" src="<?php bloginfo('template_url'); ?>/pdf/臨床免疫.pdf"></iframe>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
             <!-- AthleteSupport Section -->
-            <section id="AthleteSupport">
+            <section id="researchpaper">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12 text-center">

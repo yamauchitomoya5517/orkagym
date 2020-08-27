@@ -417,19 +417,19 @@ section h3.section-subheading {
     text-transform: none;
 }
 
-#Trainers .portfolio-item {
+#researcher .portfolio-item {
     margin: 0 0 15px;
     right: 0;
 }
 
-#Trainers .portfolio-item .portfolio-link {
+#researcher .portfolio-item .portfolio-link {
     display: block;
     position: relative;
     max-width: 400px;
     margin: 0 auto;
 }
 
-#Trainers .portfolio-item .portfolio-link .portfolio-hover {
+#researcher .portfolio-item .portfolio-link .portfolio-hover {
     background: rgba(39, 185, 227, 0.9);
     position: absolute;
     width: 100%;
@@ -440,11 +440,11 @@ section h3.section-subheading {
     -moz-transition: all ease 0.5s;
 }
 
-#Trainers .portfolio-item .portfolio-link .portfolio-hover:hover {
+#researcher .portfolio-item .portfolio-link .portfolio-hover:hover {
     opacity: 1;
 }
 
-#Trainers .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+#researcher .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
     position: absolute;
     width: 100%;
     height: 20px;
@@ -455,16 +455,16 @@ section h3.section-subheading {
     color: #fff;
 }
 
-#Trainers .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
+#researcher .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
     margin-top: -12px;
 }
 
-#Trainers .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
-#Trainers .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
+#researcher .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
+#researcher .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
     margin: 0;
 }
 
-#Trainers .portfolio-item .portfolio-caption {
+#researcher .portfolio-item .portfolio-caption {
     max-width: 400px;
     margin: 0 auto;
     background-color: #fff;
@@ -472,12 +472,12 @@ section h3.section-subheading {
     padding: 15px;
 }
 
-#Trainers .portfolio-item .portfolio-caption h4 {
+#researcher .portfolio-item .portfolio-caption h4 {
     text-transform: none;
     margin: 0;
 }
 
-#Trainers .portfolio-item .portfolio-caption p {
+#researcher .portfolio-item .portfolio-caption p {
     font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E",
         "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
     font-style: italic;
@@ -485,29 +485,29 @@ section h3.section-subheading {
     margin: 0;
 }
 
-#Trainers * {
+#researcher * {
     z-index: 2;
 }
 
 @media (min-width: 767px) {
-    #Trainers .portfolio-item {
+    #researcher .portfolio-item {
         margin: 0 0 30px;
     }
 }
 
-#AthleteSupport .portfolio-item {
+#researchpaper .portfolio-item {
     margin: 0 0 15px;
     right: 0;
 }
 
-#AthleteSupport .portfolio-item .portfolio-link {
+#researchpaper .portfolio-item .portfolio-link {
     display: block;
     position: relative;
     max-width: 400px;
     margin: 0 auto;
 }
 
-#AthleteSupport .portfolio-item .portfolio-link .portfolio-hover {
+#researchpaper .portfolio-item .portfolio-link .portfolio-hover {
     background: rgba(39, 185, 227, 0.9);
     position: absolute;
     width: 100%;
@@ -518,11 +518,11 @@ section h3.section-subheading {
     -moz-transition: all ease 0.5s;
 }
 
-#AthleteSupport .portfolio-item .portfolio-link .portfolio-hover:hover {
+#researchpaper .portfolio-item .portfolio-link .portfolio-hover:hover {
     opacity: 1;
 }
 
-#AthleteSupport .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+#researchpaper .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
     position: absolute;
     width: 100%;
     height: 20px;
@@ -533,16 +533,16 @@ section h3.section-subheading {
     color: #fff;
 }
 
-#AthleteSupport .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
+#researchpaper .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
     margin-top: -12px;
 }
 
-#AthleteSupport .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
-#AthleteSupport .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
+#researchpaper .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
+#researchpaper .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
     margin: 0;
 }
 
-#AthleteSupport .portfolio-item .portfolio-caption {
+#researchpaper .portfolio-item .portfolio-caption {
     max-width: 400px;
     margin: 0 auto;
     background-color: #fff;
@@ -550,12 +550,12 @@ section h3.section-subheading {
     padding: 15px;
 }
 
-#AthleteSupport .portfolio-item .portfolio-caption h4 {
+#researchpaper .portfolio-item .portfolio-caption h4 {
     text-transform: none;
     margin: 0;
 }
 
-#AthleteSupport .portfolio-item .portfolio-caption p {
+#researchpaper .portfolio-item .portfolio-caption p {
     font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E",
         "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
     font-style: italic;
@@ -563,12 +563,12 @@ section h3.section-subheading {
     margin: 0;
 }
 
-#AthleteSupport * {
+#researchpaper * {
     z-index: 2;
 }
 
 @media (min-width: 767px) {
-    #AthleteSupport .portfolio-item {
+    #researchpaper .portfolio-item {
         margin: 0 0 30px;
     }
 }
@@ -878,7 +878,7 @@ section h3.section-subheading {
         color: #FF6C00;
     }
 
-    section#Message {
+    section#missionvision {
         background-color: #fff;
         /*background-image: url(http://nucklepart.hippy.jp/20180421.jpg);*/
         background-image: url(../img/20200510075303.JPEG);
@@ -887,7 +887,7 @@ section h3.section-subheading {
         background-size: cover;
     }
 
-    section#Concept {
+    section#concept {
         background-color: #f7f7f7;
         /* background-image: url(../img/kamiyasan-1.jpg); */
         background-position: center;
@@ -895,7 +895,7 @@ section h3.section-subheading {
         background-size: cover;
     }
 
-    section#Price {
+    section#price {
         background-color: #f7f7f7;
     }
 
@@ -996,7 +996,7 @@ section h3.section-subheading {
         color: #FF6C00;
     }
 
-    section#Message {
+    section#missionvision {
         background-color: #fff;
         /*background-image: url(http://nucklepart.hippy.jp/20180421.jpg);*/
         /*background-image: url(http://nucklepart.hippy.jp/20190515.jpg);*/
@@ -1005,7 +1005,7 @@ section h3.section-subheading {
         background-size: cover;
     }
 
-    section#Concept {
+    section#concept {
         background-color: #f7f7f7;
         /* background-image: url(../img/kamiyasan-1.jpg); */
         background-position: center;
@@ -1013,7 +1013,7 @@ section h3.section-subheading {
         background-size: cover;
     }
 
-    section#Price {
+    section#price {
         background-color: #f7f7f7;
     }
 
@@ -1291,7 +1291,7 @@ body {
     color: #000000;
 }
 
-#Blog a {
+#news a {
     color: #222;
     text-decoration: none;
 }
