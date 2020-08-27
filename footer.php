@@ -28,7 +28,13 @@
                     <a class="page-scroll" href="<?php echo home_url('/'); ?>#price"><small>PRICE</small><br>料金案内</a>
                 </li>
                 <li class="hidden-xs hidden-sm">
-                    <a class="page-scroll" href="<?php echo home_url('/'); ?>#researchpaper"><small>researchpaper</small><br>研究論文</a>
+                    <a class="page-scroll" href="<?php echo home_url('/'); ?>#researchpaper"><small>RESEARCH PAPER</small><br>研究論文</a>
+                </li>
+                <li class="hidden-xs hidden-sm">
+                    <a class="page-scroll" href="<?php echo home_url('/'); ?>#CompanyOverView"><small>COMPANY OVERVIEW</small><br>企業情報</a>
+                </li>
+                <li class="hidden-xs hidden-sm">
+                    <a class="page-scroll" href="<?php echo home_url('/'); ?>#http://orkagym.jp/contact/"><small>CONTACT</small><br>ご予約</a>
                 </li>
                 </ul>
             </div>

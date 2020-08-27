@@ -51,7 +51,7 @@
                             </li>
                         </ul>
                         <p class="spacer-m">
-                            <a href="http://orkagym.jp/contact/" class="btn btn-xl page-scroll">Contact</a>
+                            <a href="http://orkagym.jp/contact/" class="btn btn-xl page-scroll">ご予約</a>
                         </p>
                     </div>
                     </div>

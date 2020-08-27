@@ -44,6 +44,12 @@
                 <li>
                     <a class="page-scroll" href="<?php echo home_url('/'); ?>#researchpaper"><small>RESEARCH PAPER</small><br>研究論文</a>
                 </li>
+                <li>
+                    <a class="page-scroll" href="<?php echo home_url('/'); ?>#CompanyOverView"><small>COMPANY OVERVIEW</small><br>企業情報</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="<?php echo home_url('/'); ?>#http://orkagym.jp/contact/"><small>CONTACT</small><br>ご予約</a>
+                </li>
             </ul>
         </div>
         <!-- /.navbar-collapse -->
