@@ -9,7 +9,7 @@
     全ての生体反応を定量化することで、個々の特徴を解明し、予防医学的見地から明確なプロトコルを提供致します。">
     <meta name="author" content="">
     <title>
-        <?php bloginfo('name'); ?> 
+        <?php bloginfo('name'); ?>
         <?php bloginfo('description'); ?>
     </title>
     <!-- Bootstrap Core CSS -->
@@ -67,7 +67,7 @@
                             </li>
                         </ul>
                         <p class="spacer-m">
-                            <a href="http://orkagym.jp/contact/" class="btn btn-xl page-scroll">Contact</a>
+                            <a href="http://orkagym.jp/contact/" class="btn btn-xl page-scroll">ご予約</a>
                         </p>
                         </div>
                     </div>
