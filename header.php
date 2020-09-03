@@ -6,7 +6,6 @@
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
             </button>
             <p>
                 <a class="navbar-brand page-scroll" href="<?php echo home_url('/'); ?>"></a>
@@ -14,7 +13,7 @@
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
+            <ul class="nav navbar-nav" style="font-size:80%; margin-top:1%;">
                 <li class="hidden">
                     <a href="#page-top"></a>
                 </li>
@@ -22,7 +21,7 @@
                     <a class="page-scroll" href="<?php echo home_url('/'); ?>#news"><small>NEWS</small><br>ニュース</a>
                 </li>
                 <li><a class="page-scroll" href="<?php echo home_url('/'); ?>#media"><small>MEDIA</small><br>メディア</a>
-                    </li>
+                </li>
                 <li>
                     <a class="page-scroll" href="<?php echo home_url('/'); ?>#missionvision"><small>MISSION & VISION</small><br>ミッション&ビジョン</a>
                 </li>
